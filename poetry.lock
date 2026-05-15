@@ -661,6 +661,17 @@ docs = ["intersphinx-registry", "myst-parser", "pydata-sphinx-theme", "sphinx-au
 test = ["ipykernel", "pre-commit", "pytest (<9)", "pytest-cov", "pytest-timeout"]
 
 [[package]]
+name = "logging"
+version = "0.4.9.6"
+description = "A logging module for Python"
+optional = false
+python-versions = "*"
+groups = ["main"]
+files = [
+    {file = "logging-0.4.9.6.tar.gz", hash = "sha256:26f6b50773f085042d301085bd1bf5d9f3735704db9f37c1ce6d8b85c38f2417"},
+]
+
+[[package]]
 name = "matplotlib-inline"
 version = "0.2.2"
 description = "Inline Matplotlib backend for Jupyter"
@@ -1441,4 +1452,4 @@ files = [
 [metadata]
 lock-version = "2.1"
 python-versions = ">=3.14"
-content-hash = "746add210c2c6ede7b14ac9fa3eeefe0d4966a39cda0fa5668321d7a2c01624d"
+content-hash = "4012787e8fa06419522f9a90717e2879c18b1c26ddcb4a4e6e081e1595bdc4f2"
