@@ -50,39 +50,39 @@ def print_status(message, status="INFO"):
 # DOWNLOAD DATASET
 # =====================================
 
-def download_dataset():
+# def download_dataset():
 
-    start = time.time()
+#     start = time.time()
 
-    folder_url = "https://drive.google.com/drive/folders/1NEPUQIMhbquKzjcD40R4aKxyo2nv7QhW?usp=sharing"
-    output_dir = "my_dataset_folder"
+#     folder_url = "https://drive.google.com/drive/folders/1NEPUQIMhbquKzjcD40R4aKxyo2nv7QhW?usp=sharing"
+#     output_dir = "my_dataset_folder"
 
-    print_status("Starting dataset download...")
+#     print_status("Starting dataset download...")
 
-    try:
+#     try:
 
-        if os.path.exists(output_dir):
-            print_status("Removing old dataset folder...")
-            shutil.rmtree(output_dir)
+#         if os.path.exists(output_dir):
+#             print_status("Removing old dataset folder...")
+#             shutil.rmtree(output_dir)
 
-        gdown.download_folder(
-            url=folder_url,
-            output=output_dir,
-            quiet=False
-        )
+#         gdown.download_folder(
+#             url=folder_url,
+#             output=output_dir,
+#             quiet=False
+#         )
 
-        end = time.time()
+#         end = time.time()
 
-        print_status(
-            f"Dataset download completed in {(end-start)/60:.2f} minutes",
-            "SUCCESS"
-        )
+#         print_status(
+#             f"Dataset download completed in {(end-start)/60:.2f} minutes",
+#             "SUCCESS"
+#         )
 
-    except Exception as e:
+#     except Exception as e:
 
-        logging.exception("Download failed")
-        print(f"[ERROR] Download failed -> {e}")
-        raise
+#         logging.exception("Download failed")
+#         print(f"[ERROR] Download failed -> {e}")
+#         raise
 
 
 # =====================================
@@ -275,7 +275,7 @@ if __name__ == '__main__':
 
     try:
 
-        download_dataset()
+        # download_dataset()
 
         load_raw_data()
 

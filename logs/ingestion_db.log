@@ -1,602 +1,535 @@
-2026-05-16 04:58:45,433 | INFO | [INFO] Starting dataset download...
-2026-05-16 05:06:09,975 | INFO | [INFO] Starting dataset download...
-2026-05-16 05:06:09,977 | INFO | [INFO] Removing old dataset folder...
-2026-05-16 05:12:56,992 | INFO | [SUCCESS] Dataset download completed in 6.78 minutes
-2026-05-16 05:12:56,993 | INFO | [INFO] Starting ingestion process...
-2026-05-16 05:12:56,994 | INFO | [INFO] Total CSV files found -> 6
-2026-05-16 05:12:56,994 | INFO | [INFO] File 1/6
-2026-05-16 05:12:56,994 | INFO | [INFO] Current File -> begin_inventory.csv
-2026-05-16 05:12:56,994 | INFO | [INFO] File Size -> 0.00 GB
-2026-05-16 05:12:56,995 | INFO | [INFO] Chunk processing started for begin_inventory
-2026-05-16 05:12:57,074 | INFO | [INFO] Processing Chunk 1
-2026-05-16 05:12:57,074 | INFO | [INFO] Chunk Rows -> 5543
-2026-05-16 05:12:57,183 | INFO | [SUCCESS] Chunk 1 inserted successfully
-2026-05-16 05:12:57,184 | INFO | [SUCCESS] begin_inventory ingestion completed
-2026-05-16 05:12:57,184 | INFO | [INFO] Total Rows Processed -> 5543
-2026-05-16 05:12:57,185 | INFO | [INFO] Total Chunks -> 1
-2026-05-16 05:12:57,185 | INFO | [INFO] Time Taken -> 0.00 minutes
-2026-05-16 05:12:57,185 | INFO | [INFO] File 2/6
-2026-05-16 05:12:57,185 | INFO | [INFO] Current File -> end_inventory.csv
-2026-05-16 05:12:57,185 | INFO | [INFO] File Size -> 0.02 GB
-2026-05-16 05:12:57,186 | INFO | [INFO] Chunk processing started for end_inventory
-2026-05-16 05:12:57,363 | INFO | [INFO] Processing Chunk 1
-2026-05-16 05:12:57,363 | INFO | [INFO] Chunk Rows -> 100000
-2026-05-16 05:12:58,381 | INFO | [SUCCESS] Chunk 1 inserted successfully
-2026-05-16 05:12:58,557 | INFO | [INFO] Processing Chunk 2
-2026-05-16 05:12:58,558 | INFO | [INFO] Chunk Rows -> 100000
-2026-05-16 05:12:59,460 | INFO | [SUCCESS] Chunk 2 inserted successfully
-2026-05-16 05:12:59,486 | INFO | [INFO] Processing Chunk 3
-2026-05-16 05:12:59,486 | INFO | [INFO] Chunk Rows -> 6529
-2026-05-16 05:12:59,546 | INFO | [SUCCESS] Chunk 3 inserted successfully
-2026-05-16 05:12:59,547 | INFO | [SUCCESS] end_inventory ingestion completed
-2026-05-16 05:12:59,547 | INFO | [INFO] Total Rows Processed -> 206529
-2026-05-16 05:12:59,547 | INFO | [INFO] Total Chunks -> 3
-2026-05-16 05:12:59,547 | INFO | [INFO] Time Taken -> 0.04 minutes
-2026-05-16 05:12:59,548 | INFO | [INFO] File 3/6
-2026-05-16 05:12:59,548 | INFO | [INFO] Current File -> purchases.csv
-2026-05-16 05:12:59,548 | INFO | [INFO] File Size -> 0.34 GB
-2026-05-16 05:12:59,549 | INFO | [INFO] Chunk processing started for purchases
-2026-05-16 05:12:59,801 | INFO | [INFO] Processing Chunk 1
-2026-05-16 05:12:59,801 | INFO | [INFO] Chunk Rows -> 100000
-2026-05-16 05:13:01,522 | INFO | [SUCCESS] Chunk 1 inserted successfully
-2026-05-16 05:13:01,750 | INFO | [INFO] Processing Chunk 2
-2026-05-16 05:13:01,751 | INFO | [INFO] Chunk Rows -> 100000
-2026-05-16 05:13:03,102 | INFO | [SUCCESS] Chunk 2 inserted successfully
-2026-05-16 05:13:03,392 | INFO | [INFO] Processing Chunk 3
-2026-05-16 05:13:03,393 | INFO | [INFO] Chunk Rows -> 100000
-2026-05-16 05:13:04,691 | INFO | [SUCCESS] Chunk 3 inserted successfully
-2026-05-16 05:13:04,921 | INFO | [INFO] Processing Chunk 4
-2026-05-16 05:13:04,922 | INFO | [INFO] Chunk Rows -> 100000
-2026-05-16 05:13:06,446 | INFO | [SUCCESS] Chunk 4 inserted successfully
-2026-05-16 05:13:06,682 | INFO | [INFO] Processing Chunk 5
-2026-05-16 05:13:06,683 | INFO | [INFO] Chunk Rows -> 100000
-2026-05-16 05:13:08,086 | INFO | [SUCCESS] Chunk 5 inserted successfully
-2026-05-16 05:13:08,319 | INFO | [INFO] Processing Chunk 6
-2026-05-16 05:13:08,320 | INFO | [INFO] Chunk Rows -> 100000
-2026-05-16 05:13:09,703 | INFO | [SUCCESS] Chunk 6 inserted successfully
-2026-05-16 05:13:09,933 | INFO | [INFO] Processing Chunk 7
-2026-05-16 05:13:09,933 | INFO | [INFO] Chunk Rows -> 100000
-2026-05-16 05:13:11,399 | INFO | [SUCCESS] Chunk 7 inserted successfully
-2026-05-16 05:13:11,741 | INFO | [INFO] Processing Chunk 8
-2026-05-16 05:13:11,741 | INFO | [INFO] Chunk Rows -> 100000
-2026-05-16 05:13:13,110 | INFO | [SUCCESS] Chunk 8 inserted successfully
-2026-05-16 05:13:13,331 | INFO | [INFO] Processing Chunk 9
-2026-05-16 05:13:13,331 | INFO | [INFO] Chunk Rows -> 100000
-2026-05-16 05:13:14,802 | INFO | [SUCCESS] Chunk 9 inserted successfully
-2026-05-16 05:13:15,031 | INFO | [INFO] Processing Chunk 10
-2026-05-16 05:13:15,031 | INFO | [INFO] Chunk Rows -> 100000
-2026-05-16 05:13:16,606 | INFO | [SUCCESS] Chunk 10 inserted successfully
-2026-05-16 05:13:17,028 | INFO | [INFO] Processing Chunk 11
-2026-05-16 05:13:17,028 | INFO | [INFO] Chunk Rows -> 100000
-2026-05-16 05:13:18,598 | INFO | [SUCCESS] Chunk 11 inserted successfully
-2026-05-16 05:13:18,830 | INFO | [INFO] Processing Chunk 12
-2026-05-16 05:13:18,831 | INFO | [INFO] Chunk Rows -> 100000
-2026-05-16 05:13:20,148 | INFO | [SUCCESS] Chunk 12 inserted successfully
-2026-05-16 05:13:20,368 | INFO | [INFO] Processing Chunk 13
-2026-05-16 05:13:20,368 | INFO | [INFO] Chunk Rows -> 100000
-2026-05-16 05:13:21,720 | INFO | [SUCCESS] Chunk 13 inserted successfully
-2026-05-16 05:13:22,000 | INFO | [INFO] Processing Chunk 14
-2026-05-16 05:13:22,001 | INFO | [INFO] Chunk Rows -> 100000
-2026-05-16 05:13:23,330 | INFO | [SUCCESS] Chunk 14 inserted successfully
-2026-05-16 05:13:23,557 | INFO | [INFO] Processing Chunk 15
-2026-05-16 05:13:23,557 | INFO | [INFO] Chunk Rows -> 100000
-2026-05-16 05:13:24,893 | INFO | [SUCCESS] Chunk 15 inserted successfully
-2026-05-16 05:13:25,112 | INFO | [INFO] Processing Chunk 16
-2026-05-16 05:13:25,113 | INFO | [INFO] Chunk Rows -> 100000
-2026-05-16 05:13:26,466 | INFO | [SUCCESS] Chunk 16 inserted successfully
-2026-05-16 05:13:26,687 | INFO | [INFO] Processing Chunk 17
-2026-05-16 05:13:26,687 | INFO | [INFO] Chunk Rows -> 100000
-2026-05-16 05:13:28,020 | INFO | [SUCCESS] Chunk 17 inserted successfully
-2026-05-16 05:13:28,241 | INFO | [INFO] Processing Chunk 18
-2026-05-16 05:13:28,242 | INFO | [INFO] Chunk Rows -> 100000
-2026-05-16 05:13:29,610 | INFO | [SUCCESS] Chunk 18 inserted successfully
-2026-05-16 05:13:29,829 | INFO | [INFO] Processing Chunk 19
-2026-05-16 05:13:29,830 | INFO | [INFO] Chunk Rows -> 100000
-2026-05-16 05:13:31,129 | INFO | [SUCCESS] Chunk 19 inserted successfully
-2026-05-16 05:13:31,350 | INFO | [INFO] Processing Chunk 20
-2026-05-16 05:13:31,350 | INFO | [INFO] Chunk Rows -> 100000
-2026-05-16 05:13:32,742 | INFO | [SUCCESS] Chunk 20 inserted successfully
-2026-05-16 05:13:32,968 | INFO | [INFO] Processing Chunk 21
-2026-05-16 05:13:32,968 | INFO | [INFO] Chunk Rows -> 100000
-2026-05-16 05:13:34,315 | INFO | [SUCCESS] Chunk 21 inserted successfully
-2026-05-16 05:13:34,557 | INFO | [INFO] Processing Chunk 22
-2026-05-16 05:13:34,558 | INFO | [INFO] Chunk Rows -> 100000
-2026-05-16 05:13:35,929 | INFO | [SUCCESS] Chunk 22 inserted successfully
-2026-05-16 05:13:36,199 | INFO | [INFO] Processing Chunk 23
-2026-05-16 05:13:36,199 | INFO | [INFO] Chunk Rows -> 100000
-2026-05-16 05:13:37,471 | INFO | [SUCCESS] Chunk 23 inserted successfully
-2026-05-16 05:13:37,683 | INFO | [INFO] Processing Chunk 24
-2026-05-16 05:13:37,684 | INFO | [INFO] Chunk Rows -> 72474
-2026-05-16 05:13:38,663 | INFO | [SUCCESS] Chunk 24 inserted successfully
-2026-05-16 05:13:38,663 | INFO | [SUCCESS] purchases ingestion completed
-2026-05-16 05:13:38,664 | INFO | [INFO] Total Rows Processed -> 2372474
-2026-05-16 05:13:38,664 | INFO | [INFO] Total Chunks -> 24
-2026-05-16 05:13:38,664 | INFO | [INFO] Time Taken -> 0.65 minutes
-2026-05-16 05:13:38,668 | INFO | [INFO] File 4/6
-2026-05-16 05:13:38,668 | INFO | [INFO] Current File -> purchase_prices.csv
-2026-05-16 05:13:38,669 | INFO | [INFO] File Size -> 0.34 GB
-2026-05-16 05:13:38,669 | INFO | [INFO] Chunk processing started for purchase_prices
-2026-05-16 05:13:38,907 | INFO | [INFO] Processing Chunk 1
-2026-05-16 05:13:38,907 | INFO | [INFO] Chunk Rows -> 100000
-2026-05-16 05:13:40,273 | INFO | [SUCCESS] Chunk 1 inserted successfully
-2026-05-16 05:13:40,493 | INFO | [INFO] Processing Chunk 2
-2026-05-16 05:13:40,493 | INFO | [INFO] Chunk Rows -> 100000
-2026-05-16 05:13:41,808 | INFO | [SUCCESS] Chunk 2 inserted successfully
-2026-05-16 05:13:42,043 | INFO | [INFO] Processing Chunk 3
-2026-05-16 05:13:42,043 | INFO | [INFO] Chunk Rows -> 100000
-2026-05-16 05:13:43,455 | INFO | [SUCCESS] Chunk 3 inserted successfully
-2026-05-16 05:13:43,679 | INFO | [INFO] Processing Chunk 4
-2026-05-16 05:13:43,679 | INFO | [INFO] Chunk Rows -> 100000
-2026-05-16 05:13:44,931 | INFO | [SUCCESS] Chunk 4 inserted successfully
-2026-05-16 05:13:45,153 | INFO | [INFO] Processing Chunk 5
-2026-05-16 05:13:45,153 | INFO | [INFO] Chunk Rows -> 100000
-2026-05-16 05:13:46,510 | INFO | [SUCCESS] Chunk 5 inserted successfully
-2026-05-16 05:13:46,732 | INFO | [INFO] Processing Chunk 6
-2026-05-16 05:13:46,732 | INFO | [INFO] Chunk Rows -> 100000
-2026-05-16 05:13:48,073 | INFO | [SUCCESS] Chunk 6 inserted successfully
-2026-05-16 05:13:48,300 | INFO | [INFO] Processing Chunk 7
-2026-05-16 05:13:48,300 | INFO | [INFO] Chunk Rows -> 100000
-2026-05-16 05:13:49,652 | INFO | [SUCCESS] Chunk 7 inserted successfully
-2026-05-16 05:13:49,869 | INFO | [INFO] Processing Chunk 8
-2026-05-16 05:13:49,869 | INFO | [INFO] Chunk Rows -> 100000
-2026-05-16 05:13:51,114 | INFO | [SUCCESS] Chunk 8 inserted successfully
-2026-05-16 05:13:51,339 | INFO | [INFO] Processing Chunk 9
-2026-05-16 05:13:51,340 | INFO | [INFO] Chunk Rows -> 100000
-2026-05-16 05:13:52,721 | INFO | [SUCCESS] Chunk 9 inserted successfully
-2026-05-16 05:13:52,938 | INFO | [INFO] Processing Chunk 10
-2026-05-16 05:13:52,938 | INFO | [INFO] Chunk Rows -> 100000
-2026-05-16 05:13:54,243 | INFO | [SUCCESS] Chunk 10 inserted successfully
-2026-05-16 05:13:54,508 | INFO | [INFO] Processing Chunk 11
-2026-05-16 05:13:54,509 | INFO | [INFO] Chunk Rows -> 100000
-2026-05-16 05:13:55,839 | INFO | [SUCCESS] Chunk 11 inserted successfully
-2026-05-16 05:13:56,053 | INFO | [INFO] Processing Chunk 12
-2026-05-16 05:13:56,054 | INFO | [INFO] Chunk Rows -> 100000
-2026-05-16 05:13:57,339 | INFO | [SUCCESS] Chunk 12 inserted successfully
-2026-05-16 05:13:57,553 | INFO | [INFO] Processing Chunk 13
-2026-05-16 05:13:57,554 | INFO | [INFO] Chunk Rows -> 100000
-2026-05-16 05:13:58,943 | INFO | [SUCCESS] Chunk 13 inserted successfully
-2026-05-16 05:13:59,153 | INFO | [INFO] Processing Chunk 14
-2026-05-16 05:13:59,154 | INFO | [INFO] Chunk Rows -> 100000
-2026-05-16 05:14:00,462 | INFO | [SUCCESS] Chunk 14 inserted successfully
-2026-05-16 05:14:00,684 | INFO | [INFO] Processing Chunk 15
-2026-05-16 05:14:00,684 | INFO | [INFO] Chunk Rows -> 100000
-2026-05-16 05:14:02,021 | INFO | [SUCCESS] Chunk 15 inserted successfully
-2026-05-16 05:14:02,237 | INFO | [INFO] Processing Chunk 16
-2026-05-16 05:14:02,237 | INFO | [INFO] Chunk Rows -> 100000
-2026-05-16 05:14:03,606 | INFO | [SUCCESS] Chunk 16 inserted successfully
-2026-05-16 05:14:03,837 | INFO | [INFO] Processing Chunk 17
-2026-05-16 05:14:03,838 | INFO | [INFO] Chunk Rows -> 100000
-2026-05-16 05:14:05,157 | INFO | [SUCCESS] Chunk 17 inserted successfully
-2026-05-16 05:14:05,372 | INFO | [INFO] Processing Chunk 18
-2026-05-16 05:14:05,373 | INFO | [INFO] Chunk Rows -> 100000
-2026-05-16 05:14:06,670 | INFO | [SUCCESS] Chunk 18 inserted successfully
-2026-05-16 05:14:06,890 | INFO | [INFO] Processing Chunk 19
-2026-05-16 05:14:06,890 | INFO | [INFO] Chunk Rows -> 100000
-2026-05-16 05:14:08,255 | INFO | [SUCCESS] Chunk 19 inserted successfully
-2026-05-16 05:14:08,472 | INFO | [INFO] Processing Chunk 20
-2026-05-16 05:14:08,472 | INFO | [INFO] Chunk Rows -> 100000
-2026-05-16 05:14:09,873 | INFO | [SUCCESS] Chunk 20 inserted successfully
-2026-05-16 05:14:10,097 | INFO | [INFO] Processing Chunk 21
-2026-05-16 05:14:10,097 | INFO | [INFO] Chunk Rows -> 100000
-2026-05-16 05:14:11,382 | INFO | [SUCCESS] Chunk 21 inserted successfully
-2026-05-16 05:14:11,602 | INFO | [INFO] Processing Chunk 22
-2026-05-16 05:14:11,602 | INFO | [INFO] Chunk Rows -> 100000
-2026-05-16 05:14:12,887 | INFO | [SUCCESS] Chunk 22 inserted successfully
-2026-05-16 05:14:13,122 | INFO | [INFO] Processing Chunk 23
-2026-05-16 05:14:13,123 | INFO | [INFO] Chunk Rows -> 100000
-2026-05-16 05:14:14,481 | INFO | [SUCCESS] Chunk 23 inserted successfully
-2026-05-16 05:14:14,643 | INFO | [INFO] Processing Chunk 24
-2026-05-16 05:14:14,644 | INFO | [INFO] Chunk Rows -> 72474
-2026-05-16 05:14:15,595 | INFO | [SUCCESS] Chunk 24 inserted successfully
-2026-05-16 05:14:15,596 | INFO | [SUCCESS] purchase_prices ingestion completed
-2026-05-16 05:14:15,596 | INFO | [INFO] Total Rows Processed -> 2372474
-2026-05-16 05:14:15,596 | INFO | [INFO] Total Chunks -> 24
-2026-05-16 05:14:15,596 | INFO | [INFO] Time Taken -> 0.62 minutes
-2026-05-16 05:14:15,600 | INFO | [INFO] File 5/6
-2026-05-16 05:14:15,601 | INFO | [INFO] Current File -> sales.csv
-2026-05-16 05:14:15,601 | INFO | [INFO] File Size -> 1.49 GB
-2026-05-16 05:14:15,601 | INFO | [INFO] Chunk processing started for sales
-2026-05-16 05:14:15,789 | INFO | [INFO] Processing Chunk 1
-2026-05-16 05:14:15,790 | INFO | [INFO] Chunk Rows -> 100000
-2026-05-16 05:14:17,178 | INFO | [SUCCESS] Chunk 1 inserted successfully
-2026-05-16 05:14:17,354 | INFO | [INFO] Processing Chunk 2
-2026-05-16 05:14:17,354 | INFO | [INFO] Chunk Rows -> 100000
-2026-05-16 05:14:18,619 | INFO | [SUCCESS] Chunk 2 inserted successfully
-2026-05-16 05:14:18,799 | INFO | [INFO] Processing Chunk 3
-2026-05-16 05:14:18,799 | INFO | [INFO] Chunk Rows -> 100000
-2026-05-16 05:14:20,204 | INFO | [SUCCESS] Chunk 3 inserted successfully
-2026-05-16 05:14:20,373 | INFO | [INFO] Processing Chunk 4
-2026-05-16 05:14:20,374 | INFO | [INFO] Chunk Rows -> 100000
-2026-05-16 05:14:21,690 | INFO | [SUCCESS] Chunk 4 inserted successfully
-2026-05-16 05:14:21,865 | INFO | [INFO] Processing Chunk 5
-2026-05-16 05:14:21,865 | INFO | [INFO] Chunk Rows -> 100000
-2026-05-16 05:14:23,160 | INFO | [SUCCESS] Chunk 5 inserted successfully
-2026-05-16 05:14:23,331 | INFO | [INFO] Processing Chunk 6
-2026-05-16 05:14:23,331 | INFO | [INFO] Chunk Rows -> 100000
-2026-05-16 05:14:24,633 | INFO | [SUCCESS] Chunk 6 inserted successfully
-2026-05-16 05:14:24,800 | INFO | [INFO] Processing Chunk 7
-2026-05-16 05:14:24,801 | INFO | [INFO] Chunk Rows -> 100000
-2026-05-16 05:14:26,074 | INFO | [SUCCESS] Chunk 7 inserted successfully
-2026-05-16 05:14:26,236 | INFO | [INFO] Processing Chunk 8
-2026-05-16 05:14:26,237 | INFO | [INFO] Chunk Rows -> 100000
-2026-05-16 05:14:27,520 | INFO | [SUCCESS] Chunk 8 inserted successfully
-2026-05-16 05:14:27,694 | INFO | [INFO] Processing Chunk 9
-2026-05-16 05:14:27,694 | INFO | [INFO] Chunk Rows -> 100000
-2026-05-16 05:14:29,010 | INFO | [SUCCESS] Chunk 9 inserted successfully
-2026-05-16 05:14:29,180 | INFO | [INFO] Processing Chunk 10
-2026-05-16 05:14:29,180 | INFO | [INFO] Chunk Rows -> 100000
-2026-05-16 05:14:30,530 | INFO | [SUCCESS] Chunk 10 inserted successfully
-2026-05-16 05:14:30,695 | INFO | [INFO] Processing Chunk 11
-2026-05-16 05:14:30,695 | INFO | [INFO] Chunk Rows -> 100000
-2026-05-16 05:14:31,929 | INFO | [SUCCESS] Chunk 11 inserted successfully
-2026-05-16 05:14:32,101 | INFO | [INFO] Processing Chunk 12
-2026-05-16 05:14:32,102 | INFO | [INFO] Chunk Rows -> 100000
-2026-05-16 05:14:33,377 | INFO | [SUCCESS] Chunk 12 inserted successfully
-2026-05-16 05:14:33,549 | INFO | [INFO] Processing Chunk 13
-2026-05-16 05:14:33,549 | INFO | [INFO] Chunk Rows -> 100000
-2026-05-16 05:14:34,911 | INFO | [SUCCESS] Chunk 13 inserted successfully
-2026-05-16 05:14:35,080 | INFO | [INFO] Processing Chunk 14
-2026-05-16 05:14:35,080 | INFO | [INFO] Chunk Rows -> 100000
-2026-05-16 05:14:36,382 | INFO | [SUCCESS] Chunk 14 inserted successfully
-2026-05-16 05:14:36,554 | INFO | [INFO] Processing Chunk 15
-2026-05-16 05:14:36,554 | INFO | [INFO] Chunk Rows -> 100000
-2026-05-16 05:14:37,885 | INFO | [SUCCESS] Chunk 15 inserted successfully
-2026-05-16 05:14:38,056 | INFO | [INFO] Processing Chunk 16
-2026-05-16 05:14:38,057 | INFO | [INFO] Chunk Rows -> 100000
-2026-05-16 05:14:39,307 | INFO | [SUCCESS] Chunk 16 inserted successfully
-2026-05-16 05:14:39,477 | INFO | [INFO] Processing Chunk 17
-2026-05-16 05:14:39,478 | INFO | [INFO] Chunk Rows -> 100000
-2026-05-16 05:14:40,812 | INFO | [SUCCESS] Chunk 17 inserted successfully
-2026-05-16 05:14:40,980 | INFO | [INFO] Processing Chunk 18
-2026-05-16 05:14:40,981 | INFO | [INFO] Chunk Rows -> 100000
-2026-05-16 05:14:42,267 | INFO | [SUCCESS] Chunk 18 inserted successfully
-2026-05-16 05:14:42,431 | INFO | [INFO] Processing Chunk 19
-2026-05-16 05:14:42,432 | INFO | [INFO] Chunk Rows -> 100000
-2026-05-16 05:14:43,703 | INFO | [SUCCESS] Chunk 19 inserted successfully
-2026-05-16 05:14:43,866 | INFO | [INFO] Processing Chunk 20
-2026-05-16 05:14:43,866 | INFO | [INFO] Chunk Rows -> 100000
-2026-05-16 05:14:45,195 | INFO | [SUCCESS] Chunk 20 inserted successfully
-2026-05-16 05:14:45,363 | INFO | [INFO] Processing Chunk 21
-2026-05-16 05:14:45,364 | INFO | [INFO] Chunk Rows -> 100000
-2026-05-16 05:14:46,643 | INFO | [SUCCESS] Chunk 21 inserted successfully
-2026-05-16 05:14:46,811 | INFO | [INFO] Processing Chunk 22
-2026-05-16 05:14:46,811 | INFO | [INFO] Chunk Rows -> 100000
-2026-05-16 05:14:48,111 | INFO | [SUCCESS] Chunk 22 inserted successfully
-2026-05-16 05:14:48,278 | INFO | [INFO] Processing Chunk 23
-2026-05-16 05:14:48,278 | INFO | [INFO] Chunk Rows -> 100000
-2026-05-16 05:14:49,570 | INFO | [SUCCESS] Chunk 23 inserted successfully
-2026-05-16 05:14:49,737 | INFO | [INFO] Processing Chunk 24
-2026-05-16 05:14:49,738 | INFO | [INFO] Chunk Rows -> 100000
-2026-05-16 05:14:51,062 | INFO | [SUCCESS] Chunk 24 inserted successfully
-2026-05-16 05:14:51,235 | INFO | [INFO] Processing Chunk 25
-2026-05-16 05:14:51,235 | INFO | [INFO] Chunk Rows -> 100000
-2026-05-16 05:14:52,513 | INFO | [SUCCESS] Chunk 25 inserted successfully
-2026-05-16 05:14:52,681 | INFO | [INFO] Processing Chunk 26
-2026-05-16 05:14:52,681 | INFO | [INFO] Chunk Rows -> 100000
-2026-05-16 05:14:53,957 | INFO | [SUCCESS] Chunk 26 inserted successfully
-2026-05-16 05:14:54,126 | INFO | [INFO] Processing Chunk 27
-2026-05-16 05:14:54,126 | INFO | [INFO] Chunk Rows -> 100000
-2026-05-16 05:14:55,497 | INFO | [SUCCESS] Chunk 27 inserted successfully
-2026-05-16 05:14:55,676 | INFO | [INFO] Processing Chunk 28
-2026-05-16 05:14:55,677 | INFO | [INFO] Chunk Rows -> 100000
-2026-05-16 05:14:57,420 | INFO | [SUCCESS] Chunk 28 inserted successfully
-2026-05-16 05:14:57,615 | INFO | [INFO] Processing Chunk 29
-2026-05-16 05:14:57,615 | INFO | [INFO] Chunk Rows -> 100000
-2026-05-16 05:14:59,393 | INFO | [SUCCESS] Chunk 29 inserted successfully
-2026-05-16 05:14:59,606 | INFO | [INFO] Processing Chunk 30
-2026-05-16 05:14:59,606 | INFO | [INFO] Chunk Rows -> 100000
-2026-05-16 05:15:01,556 | INFO | [SUCCESS] Chunk 30 inserted successfully
-2026-05-16 05:15:01,780 | INFO | [INFO] Processing Chunk 31
-2026-05-16 05:15:01,780 | INFO | [INFO] Chunk Rows -> 100000
-2026-05-16 05:15:03,952 | INFO | [SUCCESS] Chunk 31 inserted successfully
-2026-05-16 05:15:04,276 | INFO | [INFO] Processing Chunk 32
-2026-05-16 05:15:04,276 | INFO | [INFO] Chunk Rows -> 100000
-2026-05-16 05:15:06,035 | INFO | [SUCCESS] Chunk 32 inserted successfully
-2026-05-16 05:15:06,227 | INFO | [INFO] Processing Chunk 33
-2026-05-16 05:15:06,228 | INFO | [INFO] Chunk Rows -> 100000
-2026-05-16 05:15:07,625 | INFO | [SUCCESS] Chunk 33 inserted successfully
-2026-05-16 05:15:07,869 | INFO | [INFO] Processing Chunk 34
-2026-05-16 05:15:07,869 | INFO | [INFO] Chunk Rows -> 100000
-2026-05-16 05:15:09,417 | INFO | [SUCCESS] Chunk 34 inserted successfully
-2026-05-16 05:15:09,631 | INFO | [INFO] Processing Chunk 35
-2026-05-16 05:15:09,631 | INFO | [INFO] Chunk Rows -> 100000
-2026-05-16 05:15:11,048 | INFO | [SUCCESS] Chunk 35 inserted successfully
-2026-05-16 05:15:11,252 | INFO | [INFO] Processing Chunk 36
-2026-05-16 05:15:11,252 | INFO | [INFO] Chunk Rows -> 100000
-2026-05-16 05:15:12,599 | INFO | [SUCCESS] Chunk 36 inserted successfully
-2026-05-16 05:15:12,776 | INFO | [INFO] Processing Chunk 37
-2026-05-16 05:15:12,777 | INFO | [INFO] Chunk Rows -> 100000
-2026-05-16 05:15:14,059 | INFO | [SUCCESS] Chunk 37 inserted successfully
-2026-05-16 05:15:14,236 | INFO | [INFO] Processing Chunk 38
-2026-05-16 05:15:14,236 | INFO | [INFO] Chunk Rows -> 100000
-2026-05-16 05:15:15,544 | INFO | [SUCCESS] Chunk 38 inserted successfully
-2026-05-16 05:15:15,707 | INFO | [INFO] Processing Chunk 39
-2026-05-16 05:15:15,707 | INFO | [INFO] Chunk Rows -> 100000
-2026-05-16 05:15:17,124 | INFO | [SUCCESS] Chunk 39 inserted successfully
-2026-05-16 05:15:17,298 | INFO | [INFO] Processing Chunk 40
-2026-05-16 05:15:17,298 | INFO | [INFO] Chunk Rows -> 100000
-2026-05-16 05:15:18,633 | INFO | [SUCCESS] Chunk 40 inserted successfully
-2026-05-16 05:15:18,824 | INFO | [INFO] Processing Chunk 41
-2026-05-16 05:15:18,824 | INFO | [INFO] Chunk Rows -> 100000
-2026-05-16 05:15:20,148 | INFO | [SUCCESS] Chunk 41 inserted successfully
-2026-05-16 05:15:20,326 | INFO | [INFO] Processing Chunk 42
-2026-05-16 05:15:20,327 | INFO | [INFO] Chunk Rows -> 100000
-2026-05-16 05:15:21,621 | INFO | [SUCCESS] Chunk 42 inserted successfully
-2026-05-16 05:15:21,808 | INFO | [INFO] Processing Chunk 43
-2026-05-16 05:15:21,809 | INFO | [INFO] Chunk Rows -> 100000
-2026-05-16 05:15:23,335 | INFO | [SUCCESS] Chunk 43 inserted successfully
-2026-05-16 05:15:23,514 | INFO | [INFO] Processing Chunk 44
-2026-05-16 05:15:23,514 | INFO | [INFO] Chunk Rows -> 100000
-2026-05-16 05:15:24,939 | INFO | [SUCCESS] Chunk 44 inserted successfully
-2026-05-16 05:15:25,150 | INFO | [INFO] Processing Chunk 45
-2026-05-16 05:15:25,150 | INFO | [INFO] Chunk Rows -> 100000
-2026-05-16 05:15:26,823 | INFO | [SUCCESS] Chunk 45 inserted successfully
-2026-05-16 05:15:27,001 | INFO | [INFO] Processing Chunk 46
-2026-05-16 05:15:27,001 | INFO | [INFO] Chunk Rows -> 100000
-2026-05-16 05:15:28,484 | INFO | [SUCCESS] Chunk 46 inserted successfully
-2026-05-16 05:15:28,704 | INFO | [INFO] Processing Chunk 47
-2026-05-16 05:15:28,705 | INFO | [INFO] Chunk Rows -> 100000
-2026-05-16 05:15:30,249 | INFO | [SUCCESS] Chunk 47 inserted successfully
-2026-05-16 05:15:30,427 | INFO | [INFO] Processing Chunk 48
-2026-05-16 05:15:30,427 | INFO | [INFO] Chunk Rows -> 100000
-2026-05-16 05:15:31,835 | INFO | [SUCCESS] Chunk 48 inserted successfully
-2026-05-16 05:15:32,011 | INFO | [INFO] Processing Chunk 49
-2026-05-16 05:15:32,011 | INFO | [INFO] Chunk Rows -> 100000
-2026-05-16 05:15:33,259 | INFO | [SUCCESS] Chunk 49 inserted successfully
-2026-05-16 05:15:33,434 | INFO | [INFO] Processing Chunk 50
-2026-05-16 05:15:33,435 | INFO | [INFO] Chunk Rows -> 100000
-2026-05-16 05:15:34,722 | INFO | [SUCCESS] Chunk 50 inserted successfully
-2026-05-16 05:15:34,897 | INFO | [INFO] Processing Chunk 51
-2026-05-16 05:15:34,897 | INFO | [INFO] Chunk Rows -> 100000
-2026-05-16 05:15:36,251 | INFO | [SUCCESS] Chunk 51 inserted successfully
-2026-05-16 05:15:36,461 | INFO | [INFO] Processing Chunk 52
-2026-05-16 05:15:36,461 | INFO | [INFO] Chunk Rows -> 100000
-2026-05-16 05:15:37,948 | INFO | [SUCCESS] Chunk 52 inserted successfully
-2026-05-16 05:15:38,126 | INFO | [INFO] Processing Chunk 53
-2026-05-16 05:15:38,127 | INFO | [INFO] Chunk Rows -> 100000
-2026-05-16 05:15:39,443 | INFO | [SUCCESS] Chunk 53 inserted successfully
-2026-05-16 05:15:39,619 | INFO | [INFO] Processing Chunk 54
-2026-05-16 05:15:39,619 | INFO | [INFO] Chunk Rows -> 100000
-2026-05-16 05:15:40,945 | INFO | [SUCCESS] Chunk 54 inserted successfully
-2026-05-16 05:15:41,155 | INFO | [INFO] Processing Chunk 55
-2026-05-16 05:15:41,156 | INFO | [INFO] Chunk Rows -> 100000
-2026-05-16 05:15:42,850 | INFO | [SUCCESS] Chunk 55 inserted successfully
-2026-05-16 05:15:43,129 | INFO | [INFO] Processing Chunk 56
-2026-05-16 05:15:43,130 | INFO | [INFO] Chunk Rows -> 100000
-2026-05-16 05:15:44,725 | INFO | [SUCCESS] Chunk 56 inserted successfully
-2026-05-16 05:15:44,938 | INFO | [INFO] Processing Chunk 57
-2026-05-16 05:15:44,938 | INFO | [INFO] Chunk Rows -> 100000
-2026-05-16 05:15:46,360 | INFO | [SUCCESS] Chunk 57 inserted successfully
-2026-05-16 05:15:46,557 | INFO | [INFO] Processing Chunk 58
-2026-05-16 05:15:46,557 | INFO | [INFO] Chunk Rows -> 100000
-2026-05-16 05:15:48,389 | INFO | [SUCCESS] Chunk 58 inserted successfully
-2026-05-16 05:15:48,695 | INFO | [INFO] Processing Chunk 59
-2026-05-16 05:15:48,696 | INFO | [INFO] Chunk Rows -> 100000
-2026-05-16 05:15:50,647 | INFO | [SUCCESS] Chunk 59 inserted successfully
-2026-05-16 05:15:50,852 | INFO | [INFO] Processing Chunk 60
-2026-05-16 05:15:50,852 | INFO | [INFO] Chunk Rows -> 100000
-2026-05-16 05:15:52,416 | INFO | [SUCCESS] Chunk 60 inserted successfully
-2026-05-16 05:15:52,614 | INFO | [INFO] Processing Chunk 61
-2026-05-16 05:15:52,614 | INFO | [INFO] Chunk Rows -> 100000
-2026-05-16 05:15:54,002 | INFO | [SUCCESS] Chunk 61 inserted successfully
-2026-05-16 05:15:54,172 | INFO | [INFO] Processing Chunk 62
-2026-05-16 05:15:54,172 | INFO | [INFO] Chunk Rows -> 100000
-2026-05-16 05:15:55,466 | INFO | [SUCCESS] Chunk 62 inserted successfully
-2026-05-16 05:15:55,635 | INFO | [INFO] Processing Chunk 63
-2026-05-16 05:15:55,636 | INFO | [INFO] Chunk Rows -> 100000
-2026-05-16 05:15:56,984 | INFO | [SUCCESS] Chunk 63 inserted successfully
-2026-05-16 05:15:57,150 | INFO | [INFO] Processing Chunk 64
-2026-05-16 05:15:57,150 | INFO | [INFO] Chunk Rows -> 100000
-2026-05-16 05:15:58,454 | INFO | [SUCCESS] Chunk 64 inserted successfully
-2026-05-16 05:15:58,621 | INFO | [INFO] Processing Chunk 65
-2026-05-16 05:15:58,621 | INFO | [INFO] Chunk Rows -> 100000
-2026-05-16 05:16:00,070 | INFO | [SUCCESS] Chunk 65 inserted successfully
-2026-05-16 05:16:00,270 | INFO | [INFO] Processing Chunk 66
-2026-05-16 05:16:00,270 | INFO | [INFO] Chunk Rows -> 100000
-2026-05-16 05:16:01,804 | INFO | [SUCCESS] Chunk 66 inserted successfully
-2026-05-16 05:16:02,017 | INFO | [INFO] Processing Chunk 67
-2026-05-16 05:16:02,017 | INFO | [INFO] Chunk Rows -> 100000
-2026-05-16 05:16:03,429 | INFO | [SUCCESS] Chunk 67 inserted successfully
-2026-05-16 05:16:03,597 | INFO | [INFO] Processing Chunk 68
-2026-05-16 05:16:03,598 | INFO | [INFO] Chunk Rows -> 100000
-2026-05-16 05:16:04,970 | INFO | [SUCCESS] Chunk 68 inserted successfully
-2026-05-16 05:16:05,144 | INFO | [INFO] Processing Chunk 69
-2026-05-16 05:16:05,145 | INFO | [INFO] Chunk Rows -> 100000
-2026-05-16 05:16:06,396 | INFO | [SUCCESS] Chunk 69 inserted successfully
-2026-05-16 05:16:06,567 | INFO | [INFO] Processing Chunk 70
-2026-05-16 05:16:06,568 | INFO | [INFO] Chunk Rows -> 100000
-2026-05-16 05:16:08,085 | INFO | [SUCCESS] Chunk 70 inserted successfully
-2026-05-16 05:16:08,325 | INFO | [INFO] Processing Chunk 71
-2026-05-16 05:16:08,325 | INFO | [INFO] Chunk Rows -> 100000
-2026-05-16 05:16:09,908 | INFO | [SUCCESS] Chunk 71 inserted successfully
-2026-05-16 05:16:10,076 | INFO | [INFO] Processing Chunk 72
-2026-05-16 05:16:10,076 | INFO | [INFO] Chunk Rows -> 100000
-2026-05-16 05:16:11,526 | INFO | [SUCCESS] Chunk 72 inserted successfully
-2026-05-16 05:16:11,779 | INFO | [INFO] Processing Chunk 73
-2026-05-16 05:16:11,780 | INFO | [INFO] Chunk Rows -> 100000
-2026-05-16 05:16:13,210 | INFO | [SUCCESS] Chunk 73 inserted successfully
-2026-05-16 05:16:13,389 | INFO | [INFO] Processing Chunk 74
-2026-05-16 05:16:13,389 | INFO | [INFO] Chunk Rows -> 100000
-2026-05-16 05:16:14,726 | INFO | [SUCCESS] Chunk 74 inserted successfully
-2026-05-16 05:16:14,896 | INFO | [INFO] Processing Chunk 75
-2026-05-16 05:16:14,896 | INFO | [INFO] Chunk Rows -> 100000
-2026-05-16 05:16:16,236 | INFO | [SUCCESS] Chunk 75 inserted successfully
-2026-05-16 05:16:16,411 | INFO | [INFO] Processing Chunk 76
-2026-05-16 05:16:16,411 | INFO | [INFO] Chunk Rows -> 100000
-2026-05-16 05:16:17,856 | INFO | [SUCCESS] Chunk 76 inserted successfully
-2026-05-16 05:16:18,059 | INFO | [INFO] Processing Chunk 77
-2026-05-16 05:16:18,059 | INFO | [INFO] Chunk Rows -> 100000
-2026-05-16 05:16:19,604 | INFO | [SUCCESS] Chunk 77 inserted successfully
-2026-05-16 05:16:19,775 | INFO | [INFO] Processing Chunk 78
-2026-05-16 05:16:19,775 | INFO | [INFO] Chunk Rows -> 100000
-2026-05-16 05:16:21,035 | INFO | [SUCCESS] Chunk 78 inserted successfully
-2026-05-16 05:16:21,213 | INFO | [INFO] Processing Chunk 79
-2026-05-16 05:16:21,213 | INFO | [INFO] Chunk Rows -> 100000
-2026-05-16 05:16:22,505 | INFO | [SUCCESS] Chunk 79 inserted successfully
-2026-05-16 05:16:22,679 | INFO | [INFO] Processing Chunk 80
-2026-05-16 05:16:22,680 | INFO | [INFO] Chunk Rows -> 100000
-2026-05-16 05:16:24,077 | INFO | [SUCCESS] Chunk 80 inserted successfully
-2026-05-16 05:16:24,251 | INFO | [INFO] Processing Chunk 81
-2026-05-16 05:16:24,251 | INFO | [INFO] Chunk Rows -> 100000
-2026-05-16 05:16:25,546 | INFO | [SUCCESS] Chunk 81 inserted successfully
-2026-05-16 05:16:25,713 | INFO | [INFO] Processing Chunk 82
-2026-05-16 05:16:25,713 | INFO | [INFO] Chunk Rows -> 100000
-2026-05-16 05:16:27,210 | INFO | [SUCCESS] Chunk 82 inserted successfully
-2026-05-16 05:16:27,379 | INFO | [INFO] Processing Chunk 83
-2026-05-16 05:16:27,379 | INFO | [INFO] Chunk Rows -> 100000
-2026-05-16 05:16:28,999 | INFO | [SUCCESS] Chunk 83 inserted successfully
-2026-05-16 05:16:29,209 | INFO | [INFO] Processing Chunk 84
-2026-05-16 05:16:29,209 | INFO | [INFO] Chunk Rows -> 100000
-2026-05-16 05:16:30,633 | INFO | [SUCCESS] Chunk 84 inserted successfully
-2026-05-16 05:16:30,813 | INFO | [INFO] Processing Chunk 85
-2026-05-16 05:16:30,814 | INFO | [INFO] Chunk Rows -> 100000
-2026-05-16 05:16:32,222 | INFO | [SUCCESS] Chunk 85 inserted successfully
-2026-05-16 05:16:32,444 | INFO | [INFO] Processing Chunk 86
-2026-05-16 05:16:32,444 | INFO | [INFO] Chunk Rows -> 100000
-2026-05-16 05:16:34,425 | INFO | [SUCCESS] Chunk 86 inserted successfully
-2026-05-16 05:16:34,606 | INFO | [INFO] Processing Chunk 87
-2026-05-16 05:16:34,606 | INFO | [INFO] Chunk Rows -> 100000
-2026-05-16 05:16:36,354 | INFO | [SUCCESS] Chunk 87 inserted successfully
-2026-05-16 05:16:36,592 | INFO | [INFO] Processing Chunk 88
-2026-05-16 05:16:36,592 | INFO | [INFO] Chunk Rows -> 100000
-2026-05-16 05:16:38,381 | INFO | [SUCCESS] Chunk 88 inserted successfully
-2026-05-16 05:16:38,682 | INFO | [INFO] Processing Chunk 89
-2026-05-16 05:16:38,682 | INFO | [INFO] Chunk Rows -> 100000
-2026-05-16 05:16:40,213 | INFO | [SUCCESS] Chunk 89 inserted successfully
-2026-05-16 05:16:40,382 | INFO | [INFO] Processing Chunk 90
-2026-05-16 05:16:40,382 | INFO | [INFO] Chunk Rows -> 100000
-2026-05-16 05:16:41,920 | INFO | [SUCCESS] Chunk 90 inserted successfully
-2026-05-16 05:16:42,157 | INFO | [INFO] Processing Chunk 91
-2026-05-16 05:16:42,157 | INFO | [INFO] Chunk Rows -> 100000
-2026-05-16 05:16:43,648 | INFO | [SUCCESS] Chunk 91 inserted successfully
-2026-05-16 05:16:43,828 | INFO | [INFO] Processing Chunk 92
-2026-05-16 05:16:43,828 | INFO | [INFO] Chunk Rows -> 100000
-2026-05-16 05:16:45,394 | INFO | [SUCCESS] Chunk 92 inserted successfully
-2026-05-16 05:16:45,667 | INFO | [INFO] Processing Chunk 93
-2026-05-16 05:16:45,668 | INFO | [INFO] Chunk Rows -> 100000
-2026-05-16 05:16:47,181 | INFO | [SUCCESS] Chunk 93 inserted successfully
-2026-05-16 05:16:47,355 | INFO | [INFO] Processing Chunk 94
-2026-05-16 05:16:47,355 | INFO | [INFO] Chunk Rows -> 100000
-2026-05-16 05:16:48,600 | INFO | [SUCCESS] Chunk 94 inserted successfully
-2026-05-16 05:16:48,868 | INFO | [INFO] Processing Chunk 95
-2026-05-16 05:16:48,868 | INFO | [INFO] Chunk Rows -> 100000
-2026-05-16 05:16:50,819 | INFO | [SUCCESS] Chunk 95 inserted successfully
-2026-05-16 05:16:51,037 | INFO | [INFO] Processing Chunk 96
-2026-05-16 05:16:51,037 | INFO | [INFO] Chunk Rows -> 100000
-2026-05-16 05:16:52,338 | INFO | [SUCCESS] Chunk 96 inserted successfully
-2026-05-16 05:16:52,723 | INFO | [INFO] Processing Chunk 97
-2026-05-16 05:16:52,724 | INFO | [INFO] Chunk Rows -> 100000
-2026-05-16 05:16:54,400 | INFO | [SUCCESS] Chunk 97 inserted successfully
-2026-05-16 05:16:54,616 | INFO | [INFO] Processing Chunk 98
-2026-05-16 05:16:54,616 | INFO | [INFO] Chunk Rows -> 100000
-2026-05-16 05:16:56,530 | INFO | [SUCCESS] Chunk 98 inserted successfully
-2026-05-16 05:16:56,860 | INFO | [INFO] Processing Chunk 99
-2026-05-16 05:16:56,860 | INFO | [INFO] Chunk Rows -> 100000
-2026-05-16 05:16:59,052 | INFO | [SUCCESS] Chunk 99 inserted successfully
-2026-05-16 05:16:59,396 | INFO | [INFO] Processing Chunk 100
-2026-05-16 05:16:59,397 | INFO | [INFO] Chunk Rows -> 100000
-2026-05-16 05:17:01,425 | INFO | [SUCCESS] Chunk 100 inserted successfully
-2026-05-16 05:17:01,668 | INFO | [INFO] Processing Chunk 101
-2026-05-16 05:17:01,669 | INFO | [INFO] Chunk Rows -> 100000
-2026-05-16 05:17:03,175 | INFO | [SUCCESS] Chunk 101 inserted successfully
-2026-05-16 05:17:03,356 | INFO | [INFO] Processing Chunk 102
-2026-05-16 05:17:03,356 | INFO | [INFO] Chunk Rows -> 100000
-2026-05-16 05:17:05,307 | INFO | [SUCCESS] Chunk 102 inserted successfully
-2026-05-16 05:17:05,615 | INFO | [INFO] Processing Chunk 103
-2026-05-16 05:17:05,615 | INFO | [INFO] Chunk Rows -> 100000
-2026-05-16 05:17:07,113 | INFO | [SUCCESS] Chunk 103 inserted successfully
-2026-05-16 05:17:07,312 | INFO | [INFO] Processing Chunk 104
-2026-05-16 05:17:07,312 | INFO | [INFO] Chunk Rows -> 100000
-2026-05-16 05:17:08,774 | INFO | [SUCCESS] Chunk 104 inserted successfully
-2026-05-16 05:17:09,056 | INFO | [INFO] Processing Chunk 105
-2026-05-16 05:17:09,057 | INFO | [INFO] Chunk Rows -> 100000
-2026-05-16 05:17:11,689 | INFO | [SUCCESS] Chunk 105 inserted successfully
-2026-05-16 05:17:11,952 | INFO | [INFO] Processing Chunk 106
-2026-05-16 05:17:11,952 | INFO | [INFO] Chunk Rows -> 100000
-2026-05-16 05:17:13,741 | INFO | [SUCCESS] Chunk 106 inserted successfully
-2026-05-16 05:17:13,955 | INFO | [INFO] Processing Chunk 107
-2026-05-16 05:17:13,955 | INFO | [INFO] Chunk Rows -> 100000
-2026-05-16 05:17:15,596 | INFO | [SUCCESS] Chunk 107 inserted successfully
-2026-05-16 05:17:15,851 | INFO | [INFO] Processing Chunk 108
-2026-05-16 05:17:15,851 | INFO | [INFO] Chunk Rows -> 100000
-2026-05-16 05:17:17,399 | INFO | [SUCCESS] Chunk 108 inserted successfully
-2026-05-16 05:17:17,598 | INFO | [INFO] Processing Chunk 109
-2026-05-16 05:17:17,598 | INFO | [INFO] Chunk Rows -> 100000
-2026-05-16 05:17:19,059 | INFO | [SUCCESS] Chunk 109 inserted successfully
-2026-05-16 05:17:19,300 | INFO | [INFO] Processing Chunk 110
-2026-05-16 05:17:19,300 | INFO | [INFO] Chunk Rows -> 100000
-2026-05-16 05:17:20,866 | INFO | [SUCCESS] Chunk 110 inserted successfully
-2026-05-16 05:17:21,088 | INFO | [INFO] Processing Chunk 111
-2026-05-16 05:17:21,089 | INFO | [INFO] Chunk Rows -> 100000
-2026-05-16 05:17:22,646 | INFO | [SUCCESS] Chunk 111 inserted successfully
-2026-05-16 05:17:22,860 | INFO | [INFO] Processing Chunk 112
-2026-05-16 05:17:22,860 | INFO | [INFO] Chunk Rows -> 100000
-2026-05-16 05:17:24,472 | INFO | [SUCCESS] Chunk 112 inserted successfully
-2026-05-16 05:17:24,680 | INFO | [INFO] Processing Chunk 113
-2026-05-16 05:17:24,680 | INFO | [INFO] Chunk Rows -> 100000
-2026-05-16 05:17:26,215 | INFO | [SUCCESS] Chunk 113 inserted successfully
-2026-05-16 05:17:26,504 | INFO | [INFO] Processing Chunk 114
-2026-05-16 05:17:26,504 | INFO | [INFO] Chunk Rows -> 100000
-2026-05-16 05:17:28,055 | INFO | [SUCCESS] Chunk 114 inserted successfully
-2026-05-16 05:17:28,243 | INFO | [INFO] Processing Chunk 115
-2026-05-16 05:17:28,244 | INFO | [INFO] Chunk Rows -> 100000
-2026-05-16 05:17:29,827 | INFO | [SUCCESS] Chunk 115 inserted successfully
-2026-05-16 05:17:30,055 | INFO | [INFO] Processing Chunk 116
-2026-05-16 05:17:30,055 | INFO | [INFO] Chunk Rows -> 100000
-2026-05-16 05:17:31,713 | INFO | [SUCCESS] Chunk 116 inserted successfully
-2026-05-16 05:17:31,931 | INFO | [INFO] Processing Chunk 117
-2026-05-16 05:17:31,931 | INFO | [INFO] Chunk Rows -> 100000
-2026-05-16 05:17:33,611 | INFO | [SUCCESS] Chunk 117 inserted successfully
-2026-05-16 05:17:33,841 | INFO | [INFO] Processing Chunk 118
-2026-05-16 05:17:33,842 | INFO | [INFO] Chunk Rows -> 100000
-2026-05-16 05:17:35,396 | INFO | [SUCCESS] Chunk 118 inserted successfully
-2026-05-16 05:17:35,577 | INFO | [INFO] Processing Chunk 119
-2026-05-16 05:17:35,577 | INFO | [INFO] Chunk Rows -> 100000
-2026-05-16 05:17:37,137 | INFO | [SUCCESS] Chunk 119 inserted successfully
-2026-05-16 05:17:37,340 | INFO | [INFO] Processing Chunk 120
-2026-05-16 05:17:37,340 | INFO | [INFO] Chunk Rows -> 100000
-2026-05-16 05:17:38,839 | INFO | [SUCCESS] Chunk 120 inserted successfully
-2026-05-16 05:17:39,023 | INFO | [INFO] Processing Chunk 121
-2026-05-16 05:17:39,023 | INFO | [INFO] Chunk Rows -> 100000
-2026-05-16 05:17:40,782 | INFO | [SUCCESS] Chunk 121 inserted successfully
-2026-05-16 05:17:40,972 | INFO | [INFO] Processing Chunk 122
-2026-05-16 05:17:40,973 | INFO | [INFO] Chunk Rows -> 100000
-2026-05-16 05:17:42,507 | INFO | [SUCCESS] Chunk 122 inserted successfully
-2026-05-16 05:17:42,762 | INFO | [INFO] Processing Chunk 123
-2026-05-16 05:17:42,763 | INFO | [INFO] Chunk Rows -> 100000
-2026-05-16 05:17:44,418 | INFO | [SUCCESS] Chunk 123 inserted successfully
-2026-05-16 05:17:44,601 | INFO | [INFO] Processing Chunk 124
-2026-05-16 05:17:44,601 | INFO | [INFO] Chunk Rows -> 100000
-2026-05-16 05:17:46,150 | INFO | [SUCCESS] Chunk 124 inserted successfully
-2026-05-16 05:17:46,372 | INFO | [INFO] Processing Chunk 125
-2026-05-16 05:17:46,372 | INFO | [INFO] Chunk Rows -> 100000
-2026-05-16 05:17:48,179 | INFO | [SUCCESS] Chunk 125 inserted successfully
-2026-05-16 05:17:48,377 | INFO | [INFO] Processing Chunk 126
-2026-05-16 05:17:48,377 | INFO | [INFO] Chunk Rows -> 100000
-2026-05-16 05:17:49,945 | INFO | [SUCCESS] Chunk 126 inserted successfully
-2026-05-16 05:17:50,136 | INFO | [INFO] Processing Chunk 127
-2026-05-16 05:17:50,137 | INFO | [INFO] Chunk Rows -> 100000
-2026-05-16 05:17:51,607 | INFO | [SUCCESS] Chunk 127 inserted successfully
-2026-05-16 05:17:51,800 | INFO | [INFO] Processing Chunk 128
-2026-05-16 05:17:51,800 | INFO | [INFO] Chunk Rows -> 100000
-2026-05-16 05:17:53,428 | INFO | [SUCCESS] Chunk 128 inserted successfully
-2026-05-16 05:17:53,507 | INFO | [INFO] Processing Chunk 129
-2026-05-16 05:17:53,508 | INFO | [INFO] Chunk Rows -> 25363
-2026-05-16 05:17:53,914 | INFO | [SUCCESS] Chunk 129 inserted successfully
-2026-05-16 05:17:53,915 | INFO | [SUCCESS] sales ingestion completed
-2026-05-16 05:17:53,915 | INFO | [INFO] Total Rows Processed -> 12825363
-2026-05-16 05:17:53,915 | INFO | [INFO] Total Chunks -> 129
-2026-05-16 05:17:53,915 | INFO | [INFO] Time Taken -> 3.64 minutes
-2026-05-16 05:17:53,918 | INFO | [INFO] File 6/6
-2026-05-16 05:17:53,919 | INFO | [INFO] Current File -> vendor_invoice.csv
-2026-05-16 05:17:53,919 | INFO | [INFO] File Size -> 0.00 GB
-2026-05-16 05:17:53,919 | INFO | [INFO] Chunk processing started for vendor_invoice
-2026-05-16 05:17:53,988 | INFO | [INFO] Processing Chunk 1
-2026-05-16 05:17:53,989 | INFO | [INFO] Chunk Rows -> 12261
-2026-05-16 05:17:54,136 | INFO | [SUCCESS] Chunk 1 inserted successfully
-2026-05-16 05:17:54,137 | INFO | [SUCCESS] vendor_invoice ingestion completed
-2026-05-16 05:17:54,137 | INFO | [INFO] Total Rows Processed -> 12261
-2026-05-16 05:17:54,137 | INFO | [INFO] Total Chunks -> 1
-2026-05-16 05:17:54,138 | INFO | [INFO] Time Taken -> 0.00 minutes
-2026-05-16 05:17:54,139 | INFO | [SUCCESS] FULL INGESTION COMPLETED in 4.95 minutes
-2026-05-16 05:17:54,139 | INFO | [SUCCESS] PIPELINE FINISHED in 11.74 minutes
+2026-05-16 09:57:40,942 | INFO | [INFO] Starting ingestion process...
+2026-05-16 09:57:40,943 | INFO | [INFO] Total CSV files found -> 6
+2026-05-16 09:57:40,943 | INFO | [INFO] File 1/6
+2026-05-16 09:57:40,944 | INFO | [INFO] Current File -> begin_inventory.csv
+2026-05-16 09:57:40,944 | INFO | [INFO] File Size -> 0.02 GB
+2026-05-16 09:57:40,944 | INFO | [INFO] Chunk processing started for begin_inventory
+2026-05-16 09:57:41,134 | INFO | [INFO] Processing Chunk 1
+2026-05-16 09:57:41,134 | INFO | [INFO] Chunk Rows -> 100000
+2026-05-16 09:57:42,137 | INFO | [SUCCESS] Chunk 1 inserted successfully
+2026-05-16 09:57:42,296 | INFO | [INFO] Processing Chunk 2
+2026-05-16 09:57:42,296 | INFO | [INFO] Chunk Rows -> 100000
+2026-05-16 09:57:43,144 | INFO | [SUCCESS] Chunk 2 inserted successfully
+2026-05-16 09:57:43,170 | INFO | [INFO] Processing Chunk 3
+2026-05-16 09:57:43,171 | INFO | [INFO] Chunk Rows -> 6529
+2026-05-16 09:57:43,228 | INFO | [SUCCESS] Chunk 3 inserted successfully
+2026-05-16 09:57:43,229 | INFO | [SUCCESS] begin_inventory ingestion completed
+2026-05-16 09:57:43,229 | INFO | [INFO] Total Rows Processed -> 206529
+2026-05-16 09:57:43,229 | INFO | [INFO] Total Chunks -> 3
+2026-05-16 09:57:43,230 | INFO | [INFO] Time Taken -> 0.04 minutes
+2026-05-16 09:57:43,230 | INFO | [INFO] File 2/6
+2026-05-16 09:57:43,231 | INFO | [INFO] Current File -> end_inventory.csv
+2026-05-16 09:57:43,231 | INFO | [INFO] File Size -> 0.02 GB
+2026-05-16 09:57:43,232 | INFO | [INFO] Chunk processing started for end_inventory
+2026-05-16 09:57:43,388 | INFO | [INFO] Processing Chunk 1
+2026-05-16 09:57:43,388 | INFO | [INFO] Chunk Rows -> 100000
+2026-05-16 09:57:44,198 | INFO | [SUCCESS] Chunk 1 inserted successfully
+2026-05-16 09:57:44,341 | INFO | [INFO] Processing Chunk 2
+2026-05-16 09:57:44,341 | INFO | [INFO] Chunk Rows -> 100000
+2026-05-16 09:57:45,136 | INFO | [SUCCESS] Chunk 2 inserted successfully
+2026-05-16 09:57:45,183 | INFO | [INFO] Processing Chunk 3
+2026-05-16 09:57:45,183 | INFO | [INFO] Chunk Rows -> 24489
+2026-05-16 09:57:45,368 | INFO | [SUCCESS] Chunk 3 inserted successfully
+2026-05-16 09:57:45,369 | INFO | [SUCCESS] end_inventory ingestion completed
+2026-05-16 09:57:45,369 | INFO | [INFO] Total Rows Processed -> 224489
+2026-05-16 09:57:45,369 | INFO | [INFO] Total Chunks -> 3
+2026-05-16 09:57:45,370 | INFO | [INFO] Time Taken -> 0.04 minutes
+2026-05-16 09:57:45,371 | INFO | [INFO] File 3/6
+2026-05-16 09:57:45,371 | INFO | [INFO] Current File -> purchases.csv
+2026-05-16 09:57:45,372 | INFO | [INFO] File Size -> 0.34 GB
+2026-05-16 09:57:45,372 | INFO | [INFO] Chunk processing started for purchases
+2026-05-16 09:57:45,601 | INFO | [INFO] Processing Chunk 1
+2026-05-16 09:57:45,601 | INFO | [INFO] Chunk Rows -> 100000
+2026-05-16 09:57:46,938 | INFO | [SUCCESS] Chunk 1 inserted successfully
+2026-05-16 09:57:47,154 | INFO | [INFO] Processing Chunk 2
+2026-05-16 09:57:47,154 | INFO | [INFO] Chunk Rows -> 100000
+2026-05-16 09:57:48,475 | INFO | [SUCCESS] Chunk 2 inserted successfully
+2026-05-16 09:57:48,692 | INFO | [INFO] Processing Chunk 3
+2026-05-16 09:57:48,692 | INFO | [INFO] Chunk Rows -> 100000
+2026-05-16 09:57:49,999 | INFO | [SUCCESS] Chunk 3 inserted successfully
+2026-05-16 09:57:50,214 | INFO | [INFO] Processing Chunk 4
+2026-05-16 09:57:50,214 | INFO | [INFO] Chunk Rows -> 100000
+2026-05-16 09:57:51,525 | INFO | [SUCCESS] Chunk 4 inserted successfully
+2026-05-16 09:57:51,740 | INFO | [INFO] Processing Chunk 5
+2026-05-16 09:57:51,740 | INFO | [INFO] Chunk Rows -> 100000
+2026-05-16 09:57:53,225 | INFO | [SUCCESS] Chunk 5 inserted successfully
+2026-05-16 09:57:53,556 | INFO | [INFO] Processing Chunk 6
+2026-05-16 09:57:53,556 | INFO | [INFO] Chunk Rows -> 100000
+2026-05-16 09:57:55,157 | INFO | [SUCCESS] Chunk 6 inserted successfully
+2026-05-16 09:57:55,447 | INFO | [INFO] Processing Chunk 7
+2026-05-16 09:57:55,447 | INFO | [INFO] Chunk Rows -> 100000
+2026-05-16 09:57:56,915 | INFO | [SUCCESS] Chunk 7 inserted successfully
+2026-05-16 09:57:57,263 | INFO | [INFO] Processing Chunk 8
+2026-05-16 09:57:57,263 | INFO | [INFO] Chunk Rows -> 100000
+2026-05-16 09:57:58,933 | INFO | [SUCCESS] Chunk 8 inserted successfully
+2026-05-16 09:57:59,231 | INFO | [INFO] Processing Chunk 9
+2026-05-16 09:57:59,231 | INFO | [INFO] Chunk Rows -> 100000
+2026-05-16 09:58:00,668 | INFO | [SUCCESS] Chunk 9 inserted successfully
+2026-05-16 09:58:00,947 | INFO | [INFO] Processing Chunk 10
+2026-05-16 09:58:00,948 | INFO | [INFO] Chunk Rows -> 100000
+2026-05-16 09:58:03,392 | INFO | [SUCCESS] Chunk 10 inserted successfully
+2026-05-16 09:58:03,775 | INFO | [INFO] Processing Chunk 11
+2026-05-16 09:58:03,775 | INFO | [INFO] Chunk Rows -> 100000
+2026-05-16 09:58:05,982 | INFO | [SUCCESS] Chunk 11 inserted successfully
+2026-05-16 09:58:06,328 | INFO | [INFO] Processing Chunk 12
+2026-05-16 09:58:06,329 | INFO | [INFO] Chunk Rows -> 100000
+2026-05-16 09:58:08,384 | INFO | [SUCCESS] Chunk 12 inserted successfully
+2026-05-16 09:58:08,801 | INFO | [INFO] Processing Chunk 13
+2026-05-16 09:58:08,801 | INFO | [INFO] Chunk Rows -> 100000
+2026-05-16 09:58:11,089 | INFO | [SUCCESS] Chunk 13 inserted successfully
+2026-05-16 09:58:11,666 | INFO | [INFO] Processing Chunk 14
+2026-05-16 09:58:11,667 | INFO | [INFO] Chunk Rows -> 100000
+2026-05-16 09:58:13,339 | INFO | [SUCCESS] Chunk 14 inserted successfully
+2026-05-16 09:58:13,639 | INFO | [INFO] Processing Chunk 15
+2026-05-16 09:58:13,639 | INFO | [INFO] Chunk Rows -> 100000
+2026-05-16 09:58:15,206 | INFO | [SUCCESS] Chunk 15 inserted successfully
+2026-05-16 09:58:15,476 | INFO | [INFO] Processing Chunk 16
+2026-05-16 09:58:15,476 | INFO | [INFO] Chunk Rows -> 100000
+2026-05-16 09:58:16,990 | INFO | [SUCCESS] Chunk 16 inserted successfully
+2026-05-16 09:58:17,361 | INFO | [INFO] Processing Chunk 17
+2026-05-16 09:58:17,361 | INFO | [INFO] Chunk Rows -> 100000
+2026-05-16 09:58:18,793 | INFO | [SUCCESS] Chunk 17 inserted successfully
+2026-05-16 09:58:19,021 | INFO | [INFO] Processing Chunk 18
+2026-05-16 09:58:19,021 | INFO | [INFO] Chunk Rows -> 100000
+2026-05-16 09:58:20,406 | INFO | [SUCCESS] Chunk 18 inserted successfully
+2026-05-16 09:58:20,635 | INFO | [INFO] Processing Chunk 19
+2026-05-16 09:58:20,635 | INFO | [INFO] Chunk Rows -> 100000
+2026-05-16 09:58:21,958 | INFO | [SUCCESS] Chunk 19 inserted successfully
+2026-05-16 09:58:22,185 | INFO | [INFO] Processing Chunk 20
+2026-05-16 09:58:22,185 | INFO | [INFO] Chunk Rows -> 100000
+2026-05-16 09:58:23,599 | INFO | [SUCCESS] Chunk 20 inserted successfully
+2026-05-16 09:58:23,919 | INFO | [INFO] Processing Chunk 21
+2026-05-16 09:58:23,919 | INFO | [INFO] Chunk Rows -> 100000
+2026-05-16 09:58:25,304 | INFO | [SUCCESS] Chunk 21 inserted successfully
+2026-05-16 09:58:25,541 | INFO | [INFO] Processing Chunk 22
+2026-05-16 09:58:25,541 | INFO | [INFO] Chunk Rows -> 100000
+2026-05-16 09:58:26,905 | INFO | [SUCCESS] Chunk 22 inserted successfully
+2026-05-16 09:58:27,143 | INFO | [INFO] Processing Chunk 23
+2026-05-16 09:58:27,143 | INFO | [INFO] Chunk Rows -> 100000
+2026-05-16 09:58:28,795 | INFO | [SUCCESS] Chunk 23 inserted successfully
+2026-05-16 09:58:29,007 | INFO | [INFO] Processing Chunk 24
+2026-05-16 09:58:29,007 | INFO | [INFO] Chunk Rows -> 72474
+2026-05-16 09:58:30,129 | INFO | [SUCCESS] Chunk 24 inserted successfully
+2026-05-16 09:58:30,130 | INFO | [SUCCESS] purchases ingestion completed
+2026-05-16 09:58:30,131 | INFO | [INFO] Total Rows Processed -> 2372474
+2026-05-16 09:58:30,131 | INFO | [INFO] Total Chunks -> 24
+2026-05-16 09:58:30,131 | INFO | [INFO] Time Taken -> 0.75 minutes
+2026-05-16 09:58:30,136 | INFO | [INFO] File 4/6
+2026-05-16 09:58:30,136 | INFO | [INFO] Current File -> purchase_prices.csv
+2026-05-16 09:58:30,136 | INFO | [INFO] File Size -> 0.00 GB
+2026-05-16 09:58:30,137 | INFO | [INFO] Chunk processing started for purchase_prices
+2026-05-16 09:58:30,182 | INFO | [INFO] Processing Chunk 1
+2026-05-16 09:58:30,182 | INFO | [INFO] Chunk Rows -> 12261
+2026-05-16 09:58:30,315 | INFO | [SUCCESS] Chunk 1 inserted successfully
+2026-05-16 09:58:30,316 | INFO | [SUCCESS] purchase_prices ingestion completed
+2026-05-16 09:58:30,316 | INFO | [INFO] Total Rows Processed -> 12261
+2026-05-16 09:58:30,316 | INFO | [INFO] Total Chunks -> 1
+2026-05-16 09:58:30,316 | INFO | [INFO] Time Taken -> 0.00 minutes
+2026-05-16 09:58:30,318 | INFO | [INFO] File 5/6
+2026-05-16 09:58:30,318 | INFO | [INFO] Current File -> sales.csv
+2026-05-16 09:58:30,318 | INFO | [INFO] File Size -> 1.49 GB
+2026-05-16 09:58:30,318 | INFO | [INFO] Chunk processing started for sales
+2026-05-16 09:58:30,538 | INFO | [INFO] Processing Chunk 1
+2026-05-16 09:58:30,538 | INFO | [INFO] Chunk Rows -> 100000
+2026-05-16 09:58:32,349 | INFO | [SUCCESS] Chunk 1 inserted successfully
+2026-05-16 09:58:32,611 | INFO | [INFO] Processing Chunk 2
+2026-05-16 09:58:32,612 | INFO | [INFO] Chunk Rows -> 100000
+2026-05-16 09:58:34,437 | INFO | [SUCCESS] Chunk 2 inserted successfully
+2026-05-16 09:58:34,678 | INFO | [INFO] Processing Chunk 3
+2026-05-16 09:58:34,678 | INFO | [INFO] Chunk Rows -> 100000
+2026-05-16 09:58:36,625 | INFO | [SUCCESS] Chunk 3 inserted successfully
+2026-05-16 09:58:36,953 | INFO | [INFO] Processing Chunk 4
+2026-05-16 09:58:36,955 | INFO | [INFO] Chunk Rows -> 100000
+2026-05-16 09:58:38,695 | INFO | [SUCCESS] Chunk 4 inserted successfully
+2026-05-16 09:58:38,915 | INFO | [INFO] Processing Chunk 5
+2026-05-16 09:58:38,916 | INFO | [INFO] Chunk Rows -> 100000
+2026-05-16 09:58:40,579 | INFO | [SUCCESS] Chunk 5 inserted successfully
+2026-05-16 09:58:40,836 | INFO | [INFO] Processing Chunk 6
+2026-05-16 09:58:40,836 | INFO | [INFO] Chunk Rows -> 100000
+2026-05-16 09:58:42,533 | INFO | [SUCCESS] Chunk 6 inserted successfully
+2026-05-16 09:58:42,716 | INFO | [INFO] Processing Chunk 7
+2026-05-16 09:58:42,717 | INFO | [INFO] Chunk Rows -> 100000
+2026-05-16 09:58:44,004 | INFO | [SUCCESS] Chunk 7 inserted successfully
+2026-05-16 09:58:44,177 | INFO | [INFO] Processing Chunk 8
+2026-05-16 09:58:44,178 | INFO | [INFO] Chunk Rows -> 100000
+2026-05-16 09:58:45,556 | INFO | [SUCCESS] Chunk 8 inserted successfully
+2026-05-16 09:58:45,787 | INFO | [INFO] Processing Chunk 9
+2026-05-16 09:58:45,787 | INFO | [INFO] Chunk Rows -> 100000
+2026-05-16 09:58:47,319 | INFO | [SUCCESS] Chunk 9 inserted successfully
+2026-05-16 09:58:47,498 | INFO | [INFO] Processing Chunk 10
+2026-05-16 09:58:47,498 | INFO | [INFO] Chunk Rows -> 100000
+2026-05-16 09:58:49,068 | INFO | [SUCCESS] Chunk 10 inserted successfully
+2026-05-16 09:58:49,301 | INFO | [INFO] Processing Chunk 11
+2026-05-16 09:58:49,301 | INFO | [INFO] Chunk Rows -> 100000
+2026-05-16 09:58:50,967 | INFO | [SUCCESS] Chunk 11 inserted successfully
+2026-05-16 09:58:51,203 | INFO | [INFO] Processing Chunk 12
+2026-05-16 09:58:51,203 | INFO | [INFO] Chunk Rows -> 100000
+2026-05-16 09:58:52,671 | INFO | [SUCCESS] Chunk 12 inserted successfully
+2026-05-16 09:58:52,903 | INFO | [INFO] Processing Chunk 13
+2026-05-16 09:58:52,904 | INFO | [INFO] Chunk Rows -> 100000
+2026-05-16 09:58:54,337 | INFO | [SUCCESS] Chunk 13 inserted successfully
+2026-05-16 09:58:54,552 | INFO | [INFO] Processing Chunk 14
+2026-05-16 09:58:54,552 | INFO | [INFO] Chunk Rows -> 100000
+2026-05-16 09:58:55,962 | INFO | [SUCCESS] Chunk 14 inserted successfully
+2026-05-16 09:58:56,268 | INFO | [INFO] Processing Chunk 15
+2026-05-16 09:58:56,269 | INFO | [INFO] Chunk Rows -> 100000
+2026-05-16 09:58:57,645 | INFO | [SUCCESS] Chunk 15 inserted successfully
+2026-05-16 09:58:57,820 | INFO | [INFO] Processing Chunk 16
+2026-05-16 09:58:57,821 | INFO | [INFO] Chunk Rows -> 100000
+2026-05-16 09:58:59,132 | INFO | [SUCCESS] Chunk 16 inserted successfully
+2026-05-16 09:58:59,300 | INFO | [INFO] Processing Chunk 17
+2026-05-16 09:58:59,301 | INFO | [INFO] Chunk Rows -> 100000
+2026-05-16 09:59:00,628 | INFO | [SUCCESS] Chunk 17 inserted successfully
+2026-05-16 09:59:00,806 | INFO | [INFO] Processing Chunk 18
+2026-05-16 09:59:00,806 | INFO | [INFO] Chunk Rows -> 100000
+2026-05-16 09:59:02,158 | INFO | [SUCCESS] Chunk 18 inserted successfully
+2026-05-16 09:59:02,326 | INFO | [INFO] Processing Chunk 19
+2026-05-16 09:59:02,326 | INFO | [INFO] Chunk Rows -> 100000
+2026-05-16 09:59:03,913 | INFO | [SUCCESS] Chunk 19 inserted successfully
+2026-05-16 09:59:04,135 | INFO | [INFO] Processing Chunk 20
+2026-05-16 09:59:04,135 | INFO | [INFO] Chunk Rows -> 100000
+2026-05-16 09:59:05,711 | INFO | [SUCCESS] Chunk 20 inserted successfully
+2026-05-16 09:59:05,886 | INFO | [INFO] Processing Chunk 21
+2026-05-16 09:59:05,886 | INFO | [INFO] Chunk Rows -> 100000
+2026-05-16 09:59:07,456 | INFO | [SUCCESS] Chunk 21 inserted successfully
+2026-05-16 09:59:07,646 | INFO | [INFO] Processing Chunk 22
+2026-05-16 09:59:07,647 | INFO | [INFO] Chunk Rows -> 100000
+2026-05-16 09:59:09,030 | INFO | [SUCCESS] Chunk 22 inserted successfully
+2026-05-16 09:59:09,202 | INFO | [INFO] Processing Chunk 23
+2026-05-16 09:59:09,203 | INFO | [INFO] Chunk Rows -> 100000
+2026-05-16 09:59:10,692 | INFO | [SUCCESS] Chunk 23 inserted successfully
+2026-05-16 09:59:10,915 | INFO | [INFO] Processing Chunk 24
+2026-05-16 09:59:10,916 | INFO | [INFO] Chunk Rows -> 100000
+2026-05-16 09:59:12,429 | INFO | [SUCCESS] Chunk 24 inserted successfully
+2026-05-16 09:59:12,627 | INFO | [INFO] Processing Chunk 25
+2026-05-16 09:59:12,628 | INFO | [INFO] Chunk Rows -> 100000
+2026-05-16 09:59:13,958 | INFO | [SUCCESS] Chunk 25 inserted successfully
+2026-05-16 09:59:14,141 | INFO | [INFO] Processing Chunk 26
+2026-05-16 09:59:14,141 | INFO | [INFO] Chunk Rows -> 100000
+2026-05-16 09:59:15,497 | INFO | [SUCCESS] Chunk 26 inserted successfully
+2026-05-16 09:59:15,684 | INFO | [INFO] Processing Chunk 27
+2026-05-16 09:59:15,684 | INFO | [INFO] Chunk Rows -> 100000
+2026-05-16 09:59:17,031 | INFO | [SUCCESS] Chunk 27 inserted successfully
+2026-05-16 09:59:17,261 | INFO | [INFO] Processing Chunk 28
+2026-05-16 09:59:17,261 | INFO | [INFO] Chunk Rows -> 100000
+2026-05-16 09:59:18,559 | INFO | [SUCCESS] Chunk 28 inserted successfully
+2026-05-16 09:59:18,730 | INFO | [INFO] Processing Chunk 29
+2026-05-16 09:59:18,730 | INFO | [INFO] Chunk Rows -> 100000
+2026-05-16 09:59:20,013 | INFO | [SUCCESS] Chunk 29 inserted successfully
+2026-05-16 09:59:20,180 | INFO | [INFO] Processing Chunk 30
+2026-05-16 09:59:20,181 | INFO | [INFO] Chunk Rows -> 100000
+2026-05-16 09:59:21,441 | INFO | [SUCCESS] Chunk 30 inserted successfully
+2026-05-16 09:59:21,608 | INFO | [INFO] Processing Chunk 31
+2026-05-16 09:59:21,609 | INFO | [INFO] Chunk Rows -> 100000
+2026-05-16 09:59:22,969 | INFO | [SUCCESS] Chunk 31 inserted successfully
+2026-05-16 09:59:23,138 | INFO | [INFO] Processing Chunk 32
+2026-05-16 09:59:23,138 | INFO | [INFO] Chunk Rows -> 100000
+2026-05-16 09:59:24,442 | INFO | [SUCCESS] Chunk 32 inserted successfully
+2026-05-16 09:59:24,615 | INFO | [INFO] Processing Chunk 33
+2026-05-16 09:59:24,615 | INFO | [INFO] Chunk Rows -> 100000
+2026-05-16 09:59:25,902 | INFO | [SUCCESS] Chunk 33 inserted successfully
+2026-05-16 09:59:26,070 | INFO | [INFO] Processing Chunk 34
+2026-05-16 09:59:26,070 | INFO | [INFO] Chunk Rows -> 100000
+2026-05-16 09:59:27,405 | INFO | [SUCCESS] Chunk 34 inserted successfully
+2026-05-16 09:59:27,584 | INFO | [INFO] Processing Chunk 35
+2026-05-16 09:59:27,584 | INFO | [INFO] Chunk Rows -> 100000
+2026-05-16 09:59:28,873 | INFO | [SUCCESS] Chunk 35 inserted successfully
+2026-05-16 09:59:29,039 | INFO | [INFO] Processing Chunk 36
+2026-05-16 09:59:29,039 | INFO | [INFO] Chunk Rows -> 100000
+2026-05-16 09:59:30,309 | INFO | [SUCCESS] Chunk 36 inserted successfully
+2026-05-16 09:59:30,476 | INFO | [INFO] Processing Chunk 37
+2026-05-16 09:59:30,476 | INFO | [INFO] Chunk Rows -> 100000
+2026-05-16 09:59:31,731 | INFO | [SUCCESS] Chunk 37 inserted successfully
+2026-05-16 09:59:31,898 | INFO | [INFO] Processing Chunk 38
+2026-05-16 09:59:31,898 | INFO | [INFO] Chunk Rows -> 100000
+2026-05-16 09:59:33,253 | INFO | [SUCCESS] Chunk 38 inserted successfully
+2026-05-16 09:59:33,423 | INFO | [INFO] Processing Chunk 39
+2026-05-16 09:59:33,423 | INFO | [INFO] Chunk Rows -> 100000
+2026-05-16 09:59:34,728 | INFO | [SUCCESS] Chunk 39 inserted successfully
+2026-05-16 09:59:34,891 | INFO | [INFO] Processing Chunk 40
+2026-05-16 09:59:34,892 | INFO | [INFO] Chunk Rows -> 100000
+2026-05-16 09:59:36,184 | INFO | [SUCCESS] Chunk 40 inserted successfully
+2026-05-16 09:59:36,353 | INFO | [INFO] Processing Chunk 41
+2026-05-16 09:59:36,354 | INFO | [INFO] Chunk Rows -> 100000
+2026-05-16 09:59:37,673 | INFO | [SUCCESS] Chunk 41 inserted successfully
+2026-05-16 09:59:37,844 | INFO | [INFO] Processing Chunk 42
+2026-05-16 09:59:37,845 | INFO | [INFO] Chunk Rows -> 100000
+2026-05-16 09:59:39,146 | INFO | [SUCCESS] Chunk 42 inserted successfully
+2026-05-16 09:59:39,320 | INFO | [INFO] Processing Chunk 43
+2026-05-16 09:59:39,321 | INFO | [INFO] Chunk Rows -> 100000
+2026-05-16 09:59:40,602 | INFO | [SUCCESS] Chunk 43 inserted successfully
+2026-05-16 09:59:40,776 | INFO | [INFO] Processing Chunk 44
+2026-05-16 09:59:40,776 | INFO | [INFO] Chunk Rows -> 100000
+2026-05-16 09:59:42,219 | INFO | [SUCCESS] Chunk 44 inserted successfully
+2026-05-16 09:59:42,389 | INFO | [INFO] Processing Chunk 45
+2026-05-16 09:59:42,389 | INFO | [INFO] Chunk Rows -> 100000
+2026-05-16 09:59:43,719 | INFO | [SUCCESS] Chunk 45 inserted successfully
+2026-05-16 09:59:43,891 | INFO | [INFO] Processing Chunk 46
+2026-05-16 09:59:43,891 | INFO | [INFO] Chunk Rows -> 100000
+2026-05-16 09:59:45,369 | INFO | [SUCCESS] Chunk 46 inserted successfully
+2026-05-16 09:59:45,622 | INFO | [INFO] Processing Chunk 47
+2026-05-16 09:59:45,622 | INFO | [INFO] Chunk Rows -> 100000
+2026-05-16 09:59:47,326 | INFO | [SUCCESS] Chunk 47 inserted successfully
+2026-05-16 09:59:47,500 | INFO | [INFO] Processing Chunk 48
+2026-05-16 09:59:47,500 | INFO | [INFO] Chunk Rows -> 100000
+2026-05-16 09:59:48,826 | INFO | [SUCCESS] Chunk 48 inserted successfully
+2026-05-16 09:59:49,016 | INFO | [INFO] Processing Chunk 49
+2026-05-16 09:59:49,016 | INFO | [INFO] Chunk Rows -> 100000
+2026-05-16 09:59:50,487 | INFO | [SUCCESS] Chunk 49 inserted successfully
+2026-05-16 09:59:50,663 | INFO | [INFO] Processing Chunk 50
+2026-05-16 09:59:50,663 | INFO | [INFO] Chunk Rows -> 100000
+2026-05-16 09:59:52,010 | INFO | [SUCCESS] Chunk 50 inserted successfully
+2026-05-16 09:59:52,187 | INFO | [INFO] Processing Chunk 51
+2026-05-16 09:59:52,188 | INFO | [INFO] Chunk Rows -> 100000
+2026-05-16 09:59:53,586 | INFO | [SUCCESS] Chunk 51 inserted successfully
+2026-05-16 09:59:53,754 | INFO | [INFO] Processing Chunk 52
+2026-05-16 09:59:53,754 | INFO | [INFO] Chunk Rows -> 100000
+2026-05-16 09:59:55,056 | INFO | [SUCCESS] Chunk 52 inserted successfully
+2026-05-16 09:59:55,229 | INFO | [INFO] Processing Chunk 53
+2026-05-16 09:59:55,230 | INFO | [INFO] Chunk Rows -> 100000
+2026-05-16 09:59:56,490 | INFO | [SUCCESS] Chunk 53 inserted successfully
+2026-05-16 09:59:56,659 | INFO | [INFO] Processing Chunk 54
+2026-05-16 09:59:56,659 | INFO | [INFO] Chunk Rows -> 100000
+2026-05-16 09:59:57,992 | INFO | [SUCCESS] Chunk 54 inserted successfully
+2026-05-16 09:59:58,197 | INFO | [INFO] Processing Chunk 55
+2026-05-16 09:59:58,198 | INFO | [INFO] Chunk Rows -> 100000
+2026-05-16 09:59:59,488 | INFO | [SUCCESS] Chunk 55 inserted successfully
+2026-05-16 09:59:59,656 | INFO | [INFO] Processing Chunk 56
+2026-05-16 09:59:59,656 | INFO | [INFO] Chunk Rows -> 100000
+2026-05-16 10:00:00,929 | INFO | [SUCCESS] Chunk 56 inserted successfully
+2026-05-16 10:00:01,101 | INFO | [INFO] Processing Chunk 57
+2026-05-16 10:00:01,101 | INFO | [INFO] Chunk Rows -> 100000
+2026-05-16 10:00:02,428 | INFO | [SUCCESS] Chunk 57 inserted successfully
+2026-05-16 10:00:02,625 | INFO | [INFO] Processing Chunk 58
+2026-05-16 10:00:02,625 | INFO | [INFO] Chunk Rows -> 100000
+2026-05-16 10:00:04,009 | INFO | [SUCCESS] Chunk 58 inserted successfully
+2026-05-16 10:00:04,183 | INFO | [INFO] Processing Chunk 59
+2026-05-16 10:00:04,184 | INFO | [INFO] Chunk Rows -> 100000
+2026-05-16 10:00:05,423 | INFO | [SUCCESS] Chunk 59 inserted successfully
+2026-05-16 10:00:05,591 | INFO | [INFO] Processing Chunk 60
+2026-05-16 10:00:05,591 | INFO | [INFO] Chunk Rows -> 100000
+2026-05-16 10:00:06,914 | INFO | [SUCCESS] Chunk 60 inserted successfully
+2026-05-16 10:00:07,083 | INFO | [INFO] Processing Chunk 61
+2026-05-16 10:00:07,084 | INFO | [INFO] Chunk Rows -> 100000
+2026-05-16 10:00:08,516 | INFO | [SUCCESS] Chunk 61 inserted successfully
+2026-05-16 10:00:08,708 | INFO | [INFO] Processing Chunk 62
+2026-05-16 10:00:08,708 | INFO | [INFO] Chunk Rows -> 100000
+2026-05-16 10:00:10,306 | INFO | [SUCCESS] Chunk 62 inserted successfully
+2026-05-16 10:00:10,547 | INFO | [INFO] Processing Chunk 63
+2026-05-16 10:00:10,547 | INFO | [INFO] Chunk Rows -> 100000
+2026-05-16 10:00:12,147 | INFO | [SUCCESS] Chunk 63 inserted successfully
+2026-05-16 10:00:12,348 | INFO | [INFO] Processing Chunk 64
+2026-05-16 10:00:12,348 | INFO | [INFO] Chunk Rows -> 100000
+2026-05-16 10:00:13,871 | INFO | [SUCCESS] Chunk 64 inserted successfully
+2026-05-16 10:00:14,073 | INFO | [INFO] Processing Chunk 65
+2026-05-16 10:00:14,073 | INFO | [INFO] Chunk Rows -> 100000
+2026-05-16 10:00:15,411 | INFO | [SUCCESS] Chunk 65 inserted successfully
+2026-05-16 10:00:15,585 | INFO | [INFO] Processing Chunk 66
+2026-05-16 10:00:15,585 | INFO | [INFO] Chunk Rows -> 100000
+2026-05-16 10:00:17,056 | INFO | [SUCCESS] Chunk 66 inserted successfully
+2026-05-16 10:00:17,234 | INFO | [INFO] Processing Chunk 67
+2026-05-16 10:00:17,234 | INFO | [INFO] Chunk Rows -> 100000
+2026-05-16 10:00:18,524 | INFO | [SUCCESS] Chunk 67 inserted successfully
+2026-05-16 10:00:18,704 | INFO | [INFO] Processing Chunk 68
+2026-05-16 10:00:18,704 | INFO | [INFO] Chunk Rows -> 100000
+2026-05-16 10:00:20,107 | INFO | [SUCCESS] Chunk 68 inserted successfully
+2026-05-16 10:00:20,275 | INFO | [INFO] Processing Chunk 69
+2026-05-16 10:00:20,275 | INFO | [INFO] Chunk Rows -> 100000
+2026-05-16 10:00:21,506 | INFO | [SUCCESS] Chunk 69 inserted successfully
+2026-05-16 10:00:21,674 | INFO | [INFO] Processing Chunk 70
+2026-05-16 10:00:21,674 | INFO | [INFO] Chunk Rows -> 100000
+2026-05-16 10:00:23,008 | INFO | [SUCCESS] Chunk 70 inserted successfully
+2026-05-16 10:00:23,170 | INFO | [INFO] Processing Chunk 71
+2026-05-16 10:00:23,170 | INFO | [INFO] Chunk Rows -> 100000
+2026-05-16 10:00:24,443 | INFO | [SUCCESS] Chunk 71 inserted successfully
+2026-05-16 10:00:24,610 | INFO | [INFO] Processing Chunk 72
+2026-05-16 10:00:24,610 | INFO | [INFO] Chunk Rows -> 100000
+2026-05-16 10:00:25,891 | INFO | [SUCCESS] Chunk 72 inserted successfully
+2026-05-16 10:00:26,061 | INFO | [INFO] Processing Chunk 73
+2026-05-16 10:00:26,061 | INFO | [INFO] Chunk Rows -> 100000
+2026-05-16 10:00:27,334 | INFO | [SUCCESS] Chunk 73 inserted successfully
+2026-05-16 10:00:27,507 | INFO | [INFO] Processing Chunk 74
+2026-05-16 10:00:27,507 | INFO | [INFO] Chunk Rows -> 100000
+2026-05-16 10:00:28,803 | INFO | [SUCCESS] Chunk 74 inserted successfully
+2026-05-16 10:00:28,974 | INFO | [INFO] Processing Chunk 75
+2026-05-16 10:00:28,974 | INFO | [INFO] Chunk Rows -> 100000
+2026-05-16 10:00:30,305 | INFO | [SUCCESS] Chunk 75 inserted successfully
+2026-05-16 10:00:30,473 | INFO | [INFO] Processing Chunk 76
+2026-05-16 10:00:30,474 | INFO | [INFO] Chunk Rows -> 100000
+2026-05-16 10:00:31,747 | INFO | [SUCCESS] Chunk 76 inserted successfully
+2026-05-16 10:00:31,908 | INFO | [INFO] Processing Chunk 77
+2026-05-16 10:00:31,908 | INFO | [INFO] Chunk Rows -> 100000
+2026-05-16 10:00:33,197 | INFO | [SUCCESS] Chunk 77 inserted successfully
+2026-05-16 10:00:33,368 | INFO | [INFO] Processing Chunk 78
+2026-05-16 10:00:33,368 | INFO | [INFO] Chunk Rows -> 100000
+2026-05-16 10:00:34,674 | INFO | [SUCCESS] Chunk 78 inserted successfully
+2026-05-16 10:00:34,847 | INFO | [INFO] Processing Chunk 79
+2026-05-16 10:00:34,847 | INFO | [INFO] Chunk Rows -> 100000
+2026-05-16 10:00:36,382 | INFO | [SUCCESS] Chunk 79 inserted successfully
+2026-05-16 10:00:36,555 | INFO | [INFO] Processing Chunk 80
+2026-05-16 10:00:36,555 | INFO | [INFO] Chunk Rows -> 100000
+2026-05-16 10:00:37,800 | INFO | [SUCCESS] Chunk 80 inserted successfully
+2026-05-16 10:00:37,968 | INFO | [INFO] Processing Chunk 81
+2026-05-16 10:00:37,968 | INFO | [INFO] Chunk Rows -> 100000
+2026-05-16 10:00:39,256 | INFO | [SUCCESS] Chunk 81 inserted successfully
+2026-05-16 10:00:39,424 | INFO | [INFO] Processing Chunk 82
+2026-05-16 10:00:39,425 | INFO | [INFO] Chunk Rows -> 100000
+2026-05-16 10:00:40,811 | INFO | [SUCCESS] Chunk 82 inserted successfully
+2026-05-16 10:00:40,981 | INFO | [INFO] Processing Chunk 83
+2026-05-16 10:00:40,981 | INFO | [INFO] Chunk Rows -> 100000
+2026-05-16 10:00:42,565 | INFO | [SUCCESS] Chunk 83 inserted successfully
+2026-05-16 10:00:42,736 | INFO | [INFO] Processing Chunk 84
+2026-05-16 10:00:42,736 | INFO | [INFO] Chunk Rows -> 100000
+2026-05-16 10:00:44,052 | INFO | [SUCCESS] Chunk 84 inserted successfully
+2026-05-16 10:00:44,226 | INFO | [INFO] Processing Chunk 85
+2026-05-16 10:00:44,226 | INFO | [INFO] Chunk Rows -> 100000
+2026-05-16 10:00:45,676 | INFO | [SUCCESS] Chunk 85 inserted successfully
+2026-05-16 10:00:45,845 | INFO | [INFO] Processing Chunk 86
+2026-05-16 10:00:45,845 | INFO | [INFO] Chunk Rows -> 100000
+2026-05-16 10:00:47,384 | INFO | [SUCCESS] Chunk 86 inserted successfully
+2026-05-16 10:00:47,634 | INFO | [INFO] Processing Chunk 87
+2026-05-16 10:00:47,634 | INFO | [INFO] Chunk Rows -> 100000
+2026-05-16 10:00:49,322 | INFO | [SUCCESS] Chunk 87 inserted successfully
+2026-05-16 10:00:49,572 | INFO | [INFO] Processing Chunk 88
+2026-05-16 10:00:49,573 | INFO | [INFO] Chunk Rows -> 100000
+2026-05-16 10:00:51,233 | INFO | [SUCCESS] Chunk 88 inserted successfully
+2026-05-16 10:00:51,408 | INFO | [INFO] Processing Chunk 89
+2026-05-16 10:00:51,409 | INFO | [INFO] Chunk Rows -> 100000
+2026-05-16 10:00:52,738 | INFO | [SUCCESS] Chunk 89 inserted successfully
+2026-05-16 10:00:52,918 | INFO | [INFO] Processing Chunk 90
+2026-05-16 10:00:52,919 | INFO | [INFO] Chunk Rows -> 100000
+2026-05-16 10:00:54,371 | INFO | [SUCCESS] Chunk 90 inserted successfully
+2026-05-16 10:00:54,563 | INFO | [INFO] Processing Chunk 91
+2026-05-16 10:00:54,564 | INFO | [INFO] Chunk Rows -> 100000
+2026-05-16 10:00:56,167 | INFO | [SUCCESS] Chunk 91 inserted successfully
+2026-05-16 10:00:56,408 | INFO | [INFO] Processing Chunk 92
+2026-05-16 10:00:56,408 | INFO | [INFO] Chunk Rows -> 100000
+2026-05-16 10:00:57,864 | INFO | [SUCCESS] Chunk 92 inserted successfully
+2026-05-16 10:00:58,040 | INFO | [INFO] Processing Chunk 93
+2026-05-16 10:00:58,040 | INFO | [INFO] Chunk Rows -> 100000
+2026-05-16 10:00:59,446 | INFO | [SUCCESS] Chunk 93 inserted successfully
+2026-05-16 10:00:59,608 | INFO | [INFO] Processing Chunk 94
+2026-05-16 10:00:59,608 | INFO | [INFO] Chunk Rows -> 100000
+2026-05-16 10:01:00,912 | INFO | [SUCCESS] Chunk 94 inserted successfully
+2026-05-16 10:01:01,098 | INFO | [INFO] Processing Chunk 95
+2026-05-16 10:01:01,098 | INFO | [INFO] Chunk Rows -> 100000
+2026-05-16 10:01:02,807 | INFO | [SUCCESS] Chunk 95 inserted successfully
+2026-05-16 10:01:03,013 | INFO | [INFO] Processing Chunk 96
+2026-05-16 10:01:03,013 | INFO | [INFO] Chunk Rows -> 100000
+2026-05-16 10:01:04,393 | INFO | [SUCCESS] Chunk 96 inserted successfully
+2026-05-16 10:01:04,602 | INFO | [INFO] Processing Chunk 97
+2026-05-16 10:01:04,602 | INFO | [INFO] Chunk Rows -> 100000
+2026-05-16 10:01:06,045 | INFO | [SUCCESS] Chunk 97 inserted successfully
+2026-05-16 10:01:06,227 | INFO | [INFO] Processing Chunk 98
+2026-05-16 10:01:06,227 | INFO | [INFO] Chunk Rows -> 100000
+2026-05-16 10:01:07,850 | INFO | [SUCCESS] Chunk 98 inserted successfully
+2026-05-16 10:01:08,059 | INFO | [INFO] Processing Chunk 99
+2026-05-16 10:01:08,059 | INFO | [INFO] Chunk Rows -> 100000
+2026-05-16 10:01:09,971 | INFO | [SUCCESS] Chunk 99 inserted successfully
+2026-05-16 10:01:10,261 | INFO | [INFO] Processing Chunk 100
+2026-05-16 10:01:10,261 | INFO | [INFO] Chunk Rows -> 100000
+2026-05-16 10:01:11,849 | INFO | [SUCCESS] Chunk 100 inserted successfully
+2026-05-16 10:01:12,044 | INFO | [INFO] Processing Chunk 101
+2026-05-16 10:01:12,044 | INFO | [INFO] Chunk Rows -> 100000
+2026-05-16 10:01:13,518 | INFO | [SUCCESS] Chunk 101 inserted successfully
+2026-05-16 10:01:13,710 | INFO | [INFO] Processing Chunk 102
+2026-05-16 10:01:13,710 | INFO | [INFO] Chunk Rows -> 100000
+2026-05-16 10:01:15,229 | INFO | [SUCCESS] Chunk 102 inserted successfully
+2026-05-16 10:01:15,401 | INFO | [INFO] Processing Chunk 103
+2026-05-16 10:01:15,401 | INFO | [INFO] Chunk Rows -> 100000
+2026-05-16 10:01:17,029 | INFO | [SUCCESS] Chunk 103 inserted successfully
+2026-05-16 10:01:17,260 | INFO | [INFO] Processing Chunk 104
+2026-05-16 10:01:17,261 | INFO | [INFO] Chunk Rows -> 100000
+2026-05-16 10:01:18,852 | INFO | [SUCCESS] Chunk 104 inserted successfully
+2026-05-16 10:01:19,025 | INFO | [INFO] Processing Chunk 105
+2026-05-16 10:01:19,026 | INFO | [INFO] Chunk Rows -> 100000
+2026-05-16 10:01:20,543 | INFO | [SUCCESS] Chunk 105 inserted successfully
+2026-05-16 10:01:20,721 | INFO | [INFO] Processing Chunk 106
+2026-05-16 10:01:20,722 | INFO | [INFO] Chunk Rows -> 100000
+2026-05-16 10:01:22,060 | INFO | [SUCCESS] Chunk 106 inserted successfully
+2026-05-16 10:01:22,272 | INFO | [INFO] Processing Chunk 107
+2026-05-16 10:01:22,272 | INFO | [INFO] Chunk Rows -> 100000
+2026-05-16 10:01:23,964 | INFO | [SUCCESS] Chunk 107 inserted successfully
+2026-05-16 10:01:24,150 | INFO | [INFO] Processing Chunk 108
+2026-05-16 10:01:24,151 | INFO | [INFO] Chunk Rows -> 100000
+2026-05-16 10:01:25,572 | INFO | [SUCCESS] Chunk 108 inserted successfully
+2026-05-16 10:01:25,751 | INFO | [INFO] Processing Chunk 109
+2026-05-16 10:01:25,751 | INFO | [INFO] Chunk Rows -> 100000
+2026-05-16 10:01:27,139 | INFO | [SUCCESS] Chunk 109 inserted successfully
+2026-05-16 10:01:27,320 | INFO | [INFO] Processing Chunk 110
+2026-05-16 10:01:27,320 | INFO | [INFO] Chunk Rows -> 100000
+2026-05-16 10:01:28,733 | INFO | [SUCCESS] Chunk 110 inserted successfully
+2026-05-16 10:01:28,946 | INFO | [INFO] Processing Chunk 111
+2026-05-16 10:01:28,947 | INFO | [INFO] Chunk Rows -> 100000
+2026-05-16 10:01:30,788 | INFO | [SUCCESS] Chunk 111 inserted successfully
+2026-05-16 10:01:30,983 | INFO | [INFO] Processing Chunk 112
+2026-05-16 10:01:30,983 | INFO | [INFO] Chunk Rows -> 100000
+2026-05-16 10:01:32,417 | INFO | [SUCCESS] Chunk 112 inserted successfully
+2026-05-16 10:01:32,601 | INFO | [INFO] Processing Chunk 113
+2026-05-16 10:01:32,601 | INFO | [INFO] Chunk Rows -> 100000
+2026-05-16 10:01:34,618 | INFO | [SUCCESS] Chunk 113 inserted successfully
+2026-05-16 10:01:34,885 | INFO | [INFO] Processing Chunk 114
+2026-05-16 10:01:34,886 | INFO | [INFO] Chunk Rows -> 100000
+2026-05-16 10:01:37,194 | INFO | [SUCCESS] Chunk 114 inserted successfully
+2026-05-16 10:01:37,523 | INFO | [INFO] Processing Chunk 115
+2026-05-16 10:01:37,524 | INFO | [INFO] Chunk Rows -> 100000
+2026-05-16 10:01:39,530 | INFO | [SUCCESS] Chunk 115 inserted successfully
+2026-05-16 10:01:39,801 | INFO | [INFO] Processing Chunk 116
+2026-05-16 10:01:39,802 | INFO | [INFO] Chunk Rows -> 100000
+2026-05-16 10:01:41,561 | INFO | [SUCCESS] Chunk 116 inserted successfully
+2026-05-16 10:01:41,760 | INFO | [INFO] Processing Chunk 117
+2026-05-16 10:01:41,761 | INFO | [INFO] Chunk Rows -> 100000
+2026-05-16 10:01:43,264 | INFO | [SUCCESS] Chunk 117 inserted successfully
+2026-05-16 10:01:43,462 | INFO | [INFO] Processing Chunk 118
+2026-05-16 10:01:43,463 | INFO | [INFO] Chunk Rows -> 100000
+2026-05-16 10:01:45,136 | INFO | [SUCCESS] Chunk 118 inserted successfully
+2026-05-16 10:01:45,359 | INFO | [INFO] Processing Chunk 119
+2026-05-16 10:01:45,360 | INFO | [INFO] Chunk Rows -> 100000
+2026-05-16 10:01:46,680 | INFO | [SUCCESS] Chunk 119 inserted successfully
+2026-05-16 10:01:46,851 | INFO | [INFO] Processing Chunk 120
+2026-05-16 10:01:46,852 | INFO | [INFO] Chunk Rows -> 100000
+2026-05-16 10:01:48,297 | INFO | [SUCCESS] Chunk 120 inserted successfully
+2026-05-16 10:01:48,464 | INFO | [INFO] Processing Chunk 121
+2026-05-16 10:01:48,464 | INFO | [INFO] Chunk Rows -> 100000
+2026-05-16 10:01:49,868 | INFO | [SUCCESS] Chunk 121 inserted successfully
+2026-05-16 10:01:50,039 | INFO | [INFO] Processing Chunk 122
+2026-05-16 10:01:50,039 | INFO | [INFO] Chunk Rows -> 100000
+2026-05-16 10:01:51,416 | INFO | [SUCCESS] Chunk 122 inserted successfully
+2026-05-16 10:01:51,593 | INFO | [INFO] Processing Chunk 123
+2026-05-16 10:01:51,594 | INFO | [INFO] Chunk Rows -> 100000
+2026-05-16 10:01:52,909 | INFO | [SUCCESS] Chunk 123 inserted successfully
+2026-05-16 10:01:53,091 | INFO | [INFO] Processing Chunk 124
+2026-05-16 10:01:53,091 | INFO | [INFO] Chunk Rows -> 100000
+2026-05-16 10:01:54,447 | INFO | [SUCCESS] Chunk 124 inserted successfully
+2026-05-16 10:01:54,621 | INFO | [INFO] Processing Chunk 125
+2026-05-16 10:01:54,621 | INFO | [INFO] Chunk Rows -> 100000
+2026-05-16 10:01:55,938 | INFO | [SUCCESS] Chunk 125 inserted successfully
+2026-05-16 10:01:56,108 | INFO | [INFO] Processing Chunk 126
+2026-05-16 10:01:56,109 | INFO | [INFO] Chunk Rows -> 100000
+2026-05-16 10:01:57,642 | INFO | [SUCCESS] Chunk 126 inserted successfully
+2026-05-16 10:01:57,837 | INFO | [INFO] Processing Chunk 127
+2026-05-16 10:01:57,838 | INFO | [INFO] Chunk Rows -> 100000
+2026-05-16 10:01:59,205 | INFO | [SUCCESS] Chunk 127 inserted successfully
+2026-05-16 10:01:59,614 | INFO | [INFO] Processing Chunk 128
+2026-05-16 10:01:59,614 | INFO | [INFO] Chunk Rows -> 100000
+2026-05-16 10:02:01,210 | INFO | [SUCCESS] Chunk 128 inserted successfully
+2026-05-16 10:02:01,298 | INFO | [INFO] Processing Chunk 129
+2026-05-16 10:02:01,299 | INFO | [INFO] Chunk Rows -> 25363
+2026-05-16 10:02:01,737 | INFO | [SUCCESS] Chunk 129 inserted successfully
+2026-05-16 10:02:01,738 | INFO | [SUCCESS] sales ingestion completed
+2026-05-16 10:02:01,739 | INFO | [INFO] Total Rows Processed -> 12825363
+2026-05-16 10:02:01,739 | INFO | [INFO] Total Chunks -> 129
+2026-05-16 10:02:01,739 | INFO | [INFO] Time Taken -> 3.52 minutes
+2026-05-16 10:02:01,743 | INFO | [INFO] File 6/6
+2026-05-16 10:02:01,743 | INFO | [INFO] Current File -> vendor_invoice.csv
+2026-05-16 10:02:01,744 | INFO | [INFO] File Size -> 0.00 GB
+2026-05-16 10:02:01,745 | INFO | [INFO] Chunk processing started for vendor_invoice
+2026-05-16 10:02:01,838 | INFO | [INFO] Processing Chunk 1
+2026-05-16 10:02:01,838 | INFO | [INFO] Chunk Rows -> 5543
+2026-05-16 10:02:01,924 | INFO | [SUCCESS] Chunk 1 inserted successfully
+2026-05-16 10:02:01,925 | INFO | [SUCCESS] vendor_invoice ingestion completed
+2026-05-16 10:02:01,926 | INFO | [INFO] Total Rows Processed -> 5543
+2026-05-16 10:02:01,926 | INFO | [INFO] Total Chunks -> 1
+2026-05-16 10:02:01,927 | INFO | [INFO] Time Taken -> 0.00 minutes
+2026-05-16 10:02:01,927 | INFO | [SUCCESS] FULL INGESTION COMPLETED in 4.35 minutes
+2026-05-16 10:02:01,928 | INFO | [SUCCESS] PIPELINE FINISHED in 4.35 minutes
